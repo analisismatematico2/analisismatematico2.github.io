@@ -1,6 +1,7 @@
 Como imprimir doble faz en impresora HP 1410:
 
 1. Imprimí las páginas impares
-2. Ahora vamos a proceder a imprimir las hojas pares pero antes: como sale la hoja invertila y dale a imprimir.
+2. Como sale la hoja de la impresora, invertila.
+3. Ahora vamos a proceder a imprimir las hojas pares.
 
 Listo.
