@@ -1,0 +1,6 @@
+La programación está muerta. La verdadera programación se sigue haciendo en código abierto. Todos copian código que ya fue creado, para vender una copia de una copia de una copia. Qué querés programar? Una página web para un restorant? Una aplicación de tienda? Está todo creado copia lo que hay en GitHub y ponele tu nombre, no necesitás estudiar LCC para darte cuenta de eso.
+
+Facebook gana su plata haciendo espionaje masivo y vendiendo publicidad.
+
+
+Si realmente te da la cabeza para crear algo revolucionario en la informática como crear un sistema de archivos programar para Linux, no necesitás estudiar Ingeniería Informática ni LCC, esas carreras son una estafa. Simplemente lo hacés colaborando a proyectos opensource.
