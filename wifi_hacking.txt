@@ -1,0 +1,32 @@
+
+
+
+
+
+
+Supongamos que corremos el diccionario de 46 gigabytes o hacemos un ataque de gemelo malvado o hacemos un ataque de WPS o hacemos un ataque de WEP (obsoleto) y encontramos que la contraseña es: sakura2629
+
+Ahora ya conocemos el patrón de la contraseña.
+
+Entonces tomamos un diccionario de 46 gigas y aplicamos los siguientes filtros:
+
+1. Cómo mínimo la contraseña tiene que ser 8 caracteres.
+2. Solo nos quedamos con las palabras que tengan exactamente 4 números AL FINAL.
+
+3. Creamos 3 diccionarios:
+* Solo nos quedamos con las palabras que contengan sakura: menos de 1 megabyte.
+* Solo nos quedamos con las palabras que contengan 26: aprox. 500 megabytes que lo podés probar en 3 horas.
+* Solo nos quedamos con las palabras que contengan 29: aprox. 500 megabytes que lo podés probar en 3 horas.
+
+Es decir de un diccionario de 46 gigabytes nos quedamos con 3 diccionarios que lo podemos probar en menos de 1 día.
+
+
+Fibertel WiFi fjw 
+
+004+DNI+fjw
+003+DNI+fjw
+001+DNI+fjw
+002+DNI+fjw
+014+DNI+fjw
+420+DNI+fjw
+412+DNI+fjw
