@@ -15,6 +15,11 @@ int c;
 while (( c = getchar()) != EOF){
 }
 
+int c;
+while (( c = getc(fp)) != EOF){
+}
+
+
 Intentá evitar usar char para el tipo c. getchar retorna el siguiente caracter casteado a un unsigned char y luego a un int. Esto significa que en la mayoría de las plataformas 'sanas' el valor de EOF y valores válidos char en 'c' no sobreescriben así que nunca accidentalmente detectarás EOF como un caracter 'normal'.
 
 
