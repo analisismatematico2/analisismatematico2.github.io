@@ -1,0 +1,9 @@
+telecomadmin:admintelecom
+
+
+WPA PreSharedKey TKIP
+WPS: AP PIN 72752487
+
+HuaweiHS8545M:cabeza23
+
+WPS: AP PIN 01611281
