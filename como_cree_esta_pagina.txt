@@ -1,4 +1,4 @@
-Creá una organización y creá un repositorio con tunombre.github.io y en la configuración andá a github pages y configuralo como página luego cloná el repositorio copiá todos los archivos a ese directorio ejecutá:
+Creá una organización y creá un repositorio con turepo.github.io y en la configuración andá a GitHub pages y configuralo como página luego cloná el repositorio copiá todos los archivos a ese directorio ejecutá:
 
 tree -H '' -o index.html
 
