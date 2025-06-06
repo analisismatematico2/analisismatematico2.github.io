@@ -1,3 +1,19 @@
+1) Pagás chat gpt pro
+2) pagás cursor pro y usá claud4-max
+
+1) Vas a chatgpt le explicás el problema lo más detallado posible, cuando te aseguraste que te entendió perfectamente, PERO PERFECTAMENTE y te da una respuesta acorde a lo que querés.
+2) Le pedís un prompt para que cursor te haga el script que necesitás.
+3) cuando cursors te hace el script que necesitás, lo validás con chatgpt
+4) una vez validado le pedís que te explique como hacerlo funcionar en tu entorno. <-- repetís esto hasta que el script funcione.
+5) vas iterando entre el punto 2 y 3 para pulir el script.
+6) le pedís a chatgpt que te explique como configurar un repo de github y lo guardás ahi para que no se te pierda.
+
+de nada.
+
+
+
+
+
 La programación está muerta. La verdadera programación se sigue haciendo en código abierto. Todos copian código que ya fue creado, para vender una copia de una copia de una copia. Qué querés programar? Una página web para un restaurant? Una aplicación de tienda? Está todo creado copia lo que hay en GitHub y ponele tu nombre, no necesitás estudiar LCC para darte cuenta de eso.
 
 Facebook gana su plata haciendo espionaje y vendiendo publicidad.
