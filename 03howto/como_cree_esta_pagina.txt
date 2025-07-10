@@ -7,5 +7,3 @@ y pushea el index.html: git add . && git commit -m primero && git push
 
 El script está acá: https://analisismatematico2.github.io/crear.sh
 
-Y para la parte de electricidad usé pandoc con un template simple: https://analisismatematico2.github.io/06cursoelectricidad/template.html
-
