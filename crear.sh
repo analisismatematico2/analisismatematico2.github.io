@@ -3,7 +3,9 @@ if [[ -z "$1" ]]; then
   echo "Uso: $0 commit_msg"
   exit;
 fi
-tree -H '' -d -o index.html # Solo carpetas
+
+# Solo carpetas
+tree -H '' -d -o index.html 
 
 # Busca carpetas, ignora la carpeta actual, las carpetas ocultas 
 find . -type d ! -path '*/.*' ! -path '.' | while read dir; do 
