@@ -4,7 +4,7 @@ En la tecnología no hay plata
 
 La programación murió en las empresas hace 10 años porque las empresas de "tecnología" se dieron cuenta que perdían plata a medida de que avanzaban la tecnología. Entonces comenzaron a empeorar sus productos para ganar más plata. El que te hace mirar más publicidad es el que gana más plata, no el que evoluciona la inteligencia artificial.
 
-Así que si queres triunfar en la informática tenes que pensar como cagarle al otro no como ayudarlo. Toda la educación universitaria no sirve para nada es un juego de suma 0. Dicen que el creador de C++ solo creó el lenguaje de programación para vender libros a gente estúpida. Linux sigue estando programado en C.
+Así que si queres triunfar en la informática tenes que pensar como cagarle al otro no como ayudarlo. Toda la educación universitaria no sirve para nada es un juego de suma 0. Dicen que el creador de C++ solo creó el lenguaje de programación para vender libros a gente estúpida. Linux sigue estando programado en C. Los juegos se crearon para venderle hardware a gente estúpida. La computadora en sí ya es un juego, la programación ya es un juego, no necesitás "jugar un jueguito" para jugar un juego.
 
 La informática consiste en automatizar los trabajos, entonces a medida que se automatizan los trabajos más gente queda sin trabajo, pero de alguna forma en las empresas de "tecnología" ocurre exactamente lo contrario, cada vez tienen más empleados.
 
