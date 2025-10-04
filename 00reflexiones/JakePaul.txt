@@ -1,0 +1,1 @@
+Cree este archivo desde mi celular. Clone el repo con mgit y agregue la ssh key a mi repo de github una maravilla. Menos dependencias que esto imposible
