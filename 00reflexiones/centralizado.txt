@@ -1,6 +1,8 @@
+### La centralizacion representa tu esclavitud.
+
 Lo unico que es importante es construir tecnologia descentralizada, por eso LCC es una perdida de tiempo.
 
-ES SIMPLE:
+##### ES SIMPLE:
 
 * La tecnologia DESCENTRALIZADA te da el poder a vos sobre tu plata y tus datos.
 * La "tecnologia" CENTRALIZADA le da el poder a la empresa sobre tu plata y tus datos.
@@ -28,7 +30,7 @@ https://decentnet.github.io/decenttech.html
 
 https://paulkrugman.substack.com/p/why-big-tech-turned-against-democrats
 
-Muertes por bombas = 226.000
+Muertes por bombas = 226.000  
 "Muertes" por COVID = 3.250.648
 
 Se nota como las "BigTech" se preocupan por la "desinformacion"
