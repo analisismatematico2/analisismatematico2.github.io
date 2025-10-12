@@ -1,0 +1,42 @@
+## La centralizacion representa tu esclavitud.  
+  
+Lo unico que es importante es construir tecnologia descentralizada, por eso LCC es una perdida de tiempo.  
+  
+### ES SIMPLE:  
+  
+* La tecnologia DESCENTRALIZADA te da el poder a vos sobre tu plata y tus datos.  
+* La "tecnologia" CENTRALIZADA le da el poder a la empresa sobre tu plata y tus datos.  
+  
+Los graduados trabajan para las "BigTech"(que de Tech no tienen nada) que lo unico que hacen es "tecnologia" centralizada.  
+Facebook no es una empresa de tecnologia, es una empresa de publicidad.  
+  
+Tecnologia descentralizada: internet, correo electronico (smtp), torrent, bitcoin.  
+Mierda anti-tecnologica centralizada: discord, slack, bancos como binance que venden bitcoin (cuando el bitcoin se creo para destruir a los bancos), todos los productos de Meta, mercadolibre, mercadopago, etc.  
+  
+Las empresas ODIAN la tecnologia centralizada porque no ganan plata. Y se excusan diciendo que quieren protegernos contra los terroristas y los pedofilos, en realidad ellos solo estan buscando su beneficio economico y quieren avanzar sobre tus derechos sino me creen lean Richard Stallman.  
+  
+En la tecnologia DESCENTRALIZADA(que es la verdadera tecnologia) NO HAY PLATA por eso las empresas construyen mierda como NetFlix, Spotify, MercadoPago, etc.  
+  
+Con la "tecnologia" centralizada vos sos el esclavo. Si la tecnologia es descentralizada vos tenes el poder, si es centralizada vos sos el esclavo. Es simple.  
+  
+Facebook en los paises pobres "regala" celulares para que mires publicidad y asi recuperan la plata (tambien venden tus datos).  
+  
+Dejen de construir "tecnologia" centralizada ese deberia ser el verdadero objetivo o Ted Kaczynski les va a tirar una bomba: https://vodoraslo.xyz/tags/ted-kaczynski/  
+LCC tiene un plan de estudio con un monton de boludeces que no sirven.  
+  
+Free software (no opensource) y descentralizacion.  
+  
+[https://decentnet.github.io/decenttech.html](https://decentnet.github.io/decenttech.html)  
+  
+[https://paulkrugman.substack.com/p/why-big-tech-turned-against-democrats](https://paulkrugman.substack.com/p/why-big-tech-turned-against-democrats)  
+  
+Muertes por bombas = 226.000    
+"Muertes" por COVID = 3.250.648  
+  
+Se nota como las "BigTech" se preocupan por la "desinformacion"  
+  
+[https://geohot.github.io/blog/jekyll/update/2025/09/13/get-out-of-technology.html](https://geohot.github.io/blog/jekyll/update/2025/09/13/get-out-of-technology.html) (Abandonen la "tecnologia", lo que hacen no es tecnologia).  
+  
+SOFTWARE LIBRE Y DESCENTRALIZADO GENTE DE MIERDA: NO HAY PLATA EN LA TECNOLOGIA, PIDAN DONACIONES. DEJEN DE CAGARNOS. LCC NO SIRVE PARA NADA. LA INTELIGENCIA ES GENETICA, NO SE ESTUDIA PARA SER INTELIGENTE Y LOS GRADUADOS SON CANCER.  
+  
+Si todo el software fuese opensource nadie tendria que estudiar una carrera universitaria (hoy en dia las universidades ya no sirven para nada).  
