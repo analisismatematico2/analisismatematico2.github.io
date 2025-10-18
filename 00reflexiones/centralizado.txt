@@ -2,6 +2,10 @@ No hay plata en tecnología y vos estás trabajando para una empresa de PUBLICID
 
 La centralización representa tu esclavitud.  
 
+La tecnología hizo que el acceso a contenidos sea más barato y cómodo: hoy se puede escuchar música, ver películas o guardar datos online por mucho menos dinero que antes, cuando había que comprar discos o equipos físicos. Pero esa comodidad tiene un costo oculto: ya no somos dueños de nada.
+
+Todo está sujeto a suscripciones y plataformas centralizadas. Si se cancela el pago o la empresa decide restringir el acceso, se puede perder todo al instante: música, fotos, datos e incluso medios de comunicación. Esto genera dependencia digital y control corporativo, donde participar plenamente en la vida moderna exige tener tarjeta de crédito y aceptar las reglas de grandes empresas. ESO NO ES TECNOLOGIA.
+
 Si no podes usar una página ocultando tu IP y deshabilitando JavaScript entonces no sos el usuario, sos el USADO.
 
 Mark Zuckerberg nos hace CACA arriba de nuestra cara. India es un pobre porque ellos se cagan entre ellos, lo mismo pasa en Argentina.
@@ -30,8 +34,15 @@ Solución: creamos tipo una cárcel en donde metemos a todos los inútiles que n
   
 * La tecnología DESCENTRALIZADA te da el poder a vos sobre tu plata y tus datos.  
 * La "tecnología" CENTRALIZADA le da el poder a la empresa sobre tu plata y tus datos.  
-  
-Los graduados trabajan para las "BigTech"(que de Tech no tienen nada) que lo unico que hacen es "tecnología" centralizada.  
+
+¿Alguna vez te preguntaste por qué cada actualización la front end es más pesada que la anterior? Es porque colectan 300 mil millones de datos y te muestran publicidad y te manipulan por todos lados. Eso NO ES TECNOLOGÍA. Y los graduados trabajan para las "BigTech"(que de Tech no tienen nada) que lo único que hacen es "tecnología" centralizada todo su modelo de negocio es mostrar publicidad. ESO NO ES TECNOLOGÍA.
+
+¿Queres probar si una página es verdaderamente gratis? Usá Tor y desactivá el JavaScript a ver si la podes usar. No sos el usuario, sos el usado.
+
+La tecnología real es DESCENTRALIZADA.
+
+Eso es una forma de abusar de la gente estúpida. Lo mismo hacen las universidades, se abusan de la gente estúpida porque podrían grabar las clases subirlas a YouTube y despedir docentes.
+
 Facebook no es una empresa de tecnología, es una empresa de publicidad.  
   
 Tecnología descentralizada: internet, correo electronico (smtp), torrent, bitcoin.  
@@ -76,6 +87,8 @@ Yo soy retrasado y tardé en darme cuenta de eso por eso no quiero que abusen de
 
 Revienta los pichones.
 
+---
+
 I want money. I have high TC. I get big compensation. I advance in my career. I have
 many business opportunity. I am senior employee. I have many reports. I have big
 package. I am important. I fly on private jet. I party with model. I go to
@@ -85,24 +98,5 @@ important? You can see I have big package?
 lol you got laid off from an ad company after spending half your life chasing stuff
 made up by other men. you sought status instead of skill. you are a loser. get the
 fuck out.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
