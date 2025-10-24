@@ -8,19 +8,9 @@ fi
 tree -H '' -d -o index.html 
 
 # Busca carpetas, ignora la carpeta actual, las carpetas ocultas 
-# find . -type d ! -path '*/.*' ! -path '.' | while read dir; do 
-#   (cd "$dir" && tree  -I '*.md' -H '' -o index.html && sed -i '1i <a href="../index.html">⬆️ Subir</a><br>' index.html)
-# done
-
-find . -type d ! -path '*/.*' ! -path '.' | while read dir; do
-  (
-    cd "$dir"
-    ls -1t > /tmp/files.txt
-    tree -H '' -o index.html --fromfile /tmp/files.txt
-    sed -i '1i <a href="../index.html">⬆️ Subir</a><br>' index.html
-  )
+find . -type d ! -path '*/.*' ! -path '.' | while read dir; do 
+  (cd "$dir" && tree  -I '*.md' -H '' -o index.html && sed -i '1i <a href="../index.html">⬆️ Subir</a><br>' index.html)
 done
-
 
 BASE_URL="https://analisismatematico2.github.io"
 RSS_FILE="rss.xml"
