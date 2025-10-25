@@ -419,12 +419,13 @@
 }
 
 body {
-  width: 60%;
+  width: 80%;
   overflow-x: hidden;
   margin: 1em auto;
   font-family: "Oxygen Mono", monospace;
   background-color: black;
   color: limegreen;
+  font-size: large;
 }
 
 header {
