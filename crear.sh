@@ -5,7 +5,7 @@ if [[ -z "$1" ]]; then
 fi
 
 # Solo carpetas
-tree -H '' -d -o index.html 
+tree -H '' -d -o index.html && sed -i '1i <link rel="stylesheet" href="/xterm.css">' index.html
 
 # Busca carpetas, ignora la carpeta actual, las carpetas ocultas 
 find . -type d ! -path '*/.*' ! -path '.' | while read dir; do 
