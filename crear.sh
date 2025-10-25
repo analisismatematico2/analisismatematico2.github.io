@@ -9,7 +9,7 @@ tree -H '' -d -o index.html
 
 # Busca carpetas, ignora la carpeta actual, las carpetas ocultas 
 find . -type d ! -path '*/.*' ! -path '.' | while read dir; do 
-  (cd "$dir" && tree  -I '*.md' -H '' -o index.html && sed -i '1i <a href="../index.html">⬆️ Subir</a><br>' index.html)
+  (cd "$dir" && tree  -I '*.md' -H '' -o index.html && sed -i '1i <a href="../index.html">⬆️ Subir</a><br><link rel="stylesheet" href="/xterm.css">' index.html)
 done
 
 BASE_URL="https://analisismatematico2.github.io"
