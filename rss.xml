@@ -3,66 +3,66 @@
   <title>Noticias del sitio</title>
   <link>https://analisismatematico2.github.io/</link>
   <description>Actualizaciones del sitio en texto plano</description>
-  <lastBuildDate>Mon, 27 Oct 2025 13:32:09 +0000
+  <lastBuildDate>Thu, 30 Oct 2025 07:41:32 +0000
 
   <item>
     <title>Curso Electricidad: Clase 2.</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/todas_clases.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> El examen es a carpeta abierta. Simbología. Red de distribución Morceto. Fusible aéreo. Si tenés morceto con fusible (antirobo) no hace falta el aéreo. Si solo tenés morceto simple se coloca el aéreo por la fase. EMSA coloca el morceto. Conductor preensamblado y bipolar. Un electricista chanta me quizo cambiar toda la instalación porque el conductor de entrada es más chico que va al tablero seccional. Línea de alimentación es la que vincula la red de la empresa distribuidora con los borners del medidor de carga. Acometida se llama así al conjunto de elementos que se utiliza para hacer la conexión entre la red alimentación y el medidor: cable, fusible y morceto. </description>
   </item>
   <item>
     <title>Teoría para el armado de trabajo práctico. Preguntas de examen. </title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/22electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> Acá están las imágenes de los esquemas de la clase:  https://imlauera.github.io/electricidad22/  Preguntas de examen </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 21: Clase práctica. Armarmos tablero paralelo. Conclusiones serie vs paralelo.</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/21electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description>Saul Kuperman el Lunes va a haber un grupo de gente de la obra social nuestra que es la UOCRA y salud pública a vacunar grande vacunación obviamente para adultos Ya partimos de esquemas eléctricos yo siempre hago un **esquema en plata como ubicar como si tuviéramos un plano en la mano** entonces a partir de ahí vamos a ver ahí ya trabajan por separado.  ##### Hay que dejar un bucle de 15 cm en la caja octogonal ##### Los empalmes no pueden quedar dentro del caño </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 20: Vimos una instalación eléctrica mal hecha. La idea original era una radio ahora es streaming. Conectamos 3 lámparas en serie y en paralelo. Si están las 3 lámparas en serie baja la luz. Si las 3 lámparas están en paralelo tienen la misma intensidad de luz. Profesor no quiere cajas de PVC porque se aplastan. Si usas cajas de PVC hay que poner 2 o 3 soporte para que no se aplaste. Como fijar cajas. Utilizan cajas de iluminación como caja de paso. Si las cajas no están fijas hay que volver a hacer. Caños de más, mal recorrido. Lo hicieron sin planos: ponemos una boca acá un toma acá y la llave de punto ahí y arreglate. Hay que tener cuidado con el plástico porque se desforma. Hay que poner madera para poder fijar las cajas. Con el alambre no sirve para fijar las cajas, no tiene que moverse para arriba ni para abajo. Con la manguera se saca nivel de agua. Las cajas con orejitas son para durlock. Las cajas tienen que tener 15 de distancia sino si enchufás algo no se puede abrir la puerta. Le falta tierra a la ducha, pusieron bien caño(7/8) y conductor(4mm). Lo que no se ve podes hacerlo en diagonal pero en las paredes siempre ortogonal. El entrecruzamiento de caños está mal. El profesor ofreció enseñar a la gente que hizo la instalación pero no quisieron. no poner tanta cantidad de caños, tomar la alimentación de un sector a otro, de acá depende de como tenga el tema de iluminación ya podría haber salido para un circuito de este lado y otro circuito allá directamente. Hicieron demasiadas cañerías por arriba. Hay demasiados cables en una caja octogonal (encima es la chica), hay que poner una caja de paso y ahí distribuir: pero no tiene mucha potencia porque es lumínico. Hay que cumplir tiempo de cerramiento de durlock(trabajan por hora) y te vas a quedar sin colocar las cajas: cuando te dejen la posibilidad mandá todo para arriba, eso es la parte interesante, mandarlo todo para arriba y ver lo que tengo abajo para poder anticiparme de lo que ellos están por hacer. Soporte tipo L para las bocas eso se hace con perfilería, tengo que fijarlo a la estructura primero, a veces tengo perfil C.</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/20electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description>fijo una madera ahí entra de perfil acá entonces hago tipo una L que apoye acá primero fijo y esto va pero acá tengo que fijar ahí está  Profesor: Entonces a veces se pone un perfil o una planchuela de acá hasta allá que pase de acá hasta allá arriba, hasta este, en otros lados se suelda planchuela de acá hasta acá, y después sueldo acá. Es todo trabajar en conjunto yo sé que un electricista no va a tener un soldador a mano tampoco, y tampoco va a tener perfiles. ¿Para qué voy hasta arriba y vuelvo vuelvo otra vez y bajo? Al pedo.  A menos que el tipo haya pensando directamente mando hasta arriba y después no sé que hago. </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 19. Sistema Alarma. Corriente Alterna/Continua. Tester multímetro, medimos continuidad. Profesor hace chistes sobre número de avogadro de un alumno de la clase anterior y se enoja con otro (Hora 1:36 y hora 1:46). La clase que viene hacemos circuito paralelo y en serie. Llevar foco incandescente."</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/19electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 18: España apagon. Ultima parte canalizacion. Silicon. Alimentacion subterranea. Conductores, no conductores o aislantes, semiconductores. Sistema alarmas. Materia esta constituida por atomos. Proton: positivo, electrones: negativo y neutron: neutro que equilibra el nucleo. Como se genera la corriente electrica: Los electrones son de carga negativa y generan la I(intensidad de corriente electrica). La potencia es watts y la intensidad es amper. Ley de watt: PxVxcos(Fi). Ley de Ohm. Como se genera la corriente alterna. Como funcinoa represa. Definicion transformador. Como se genera el neutro: transformador tiene refrigerante por eso gotea, entra en triangulo bobina primaria secundaria. A veces pedían instalar el cartel de la alarma pero no tenian la alarma. Alarma de 2 pisos. Detector de movimiento infrarojo. Detector de rutura de vidrio. Aislate: goma(caucho), plastico, madera. Semiconductores: la mitad conduce y la otra no (un diodo por ejemplo). Emallado para que nadie pase. Calzado de seguridad que tenga suela y que sea bieléctrico. Botín con punta de PVC, acostumbrarse si estas mucho tiempo en obra. Tipos de marca zapatos. Marca Senior, Boran, etc. Las empresas están obligadas a dar 2 equipos al año (nadie cumple: 1 si tenes suerte). En la Municipalidad te dan 1 equipo (ropa GRAFA y zapato olvidalo). Usted está preparando obreros en vez de preparar profesionales: la mentalidad fue cambiando y Janssen REMERITA. Corriente alterna y continua. Bici y autos(DKW auto union) con dinamo. El electrón genera la corriente eléctrica. Como se genera una batería. Al conectar el panel solar poner un trapo adelante o sino vas a recibir descarga. Como calcular que pantalla solar usar, cuanto va a consumir por hora un equipo para sacar la pantalla. RCP en Junio. Vamos a hacer parece político. Caño mínimo a colocar 3/4 por más que el cálculo te de más chico. Martín pregunta quién está haciendo la instalación (nos robaron la changa). Los arquitecto copian y pegan otros planos con AUTOCAD por más que las bocas sean las mismas, Espeche trabajó con varios. Amigo ingeniero electricista de Espeche mandaba al propietario o al arquitecto en PDF, entonces no se podía modificar, mientras no me hagan firmar no hay problema. La municipalidad te caga te hacen rehacer el plano y te cobran y te consiguen un tipo. Pisoducto y pisotécnico. Número de avogadro XD."</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/18electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 17: Alarmas. Guardar cable pasante con manguera o caño corrugado. Página 47 GUIA AEA.  Saul Kuperman (director de la escuela) viene a darnos la bienvenida, habla de la vestimenta, tarjeta ieric. Si yo no tengo un soporte los peer¿? tienen la posibilidad de tener un rango de 90 grados. Profeosr trabajó con alarma X28, trabajó en eso pero no ganaba mucho. Yo se abarataron mucho los precios, la alarma más cara era X28, la gente no quiería pagar. Hay alarmas que graban a partir de algún movimiento y graba todo."</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/17electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 16 / Armamos distribución"</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/16electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 15: Canalización. Doblamos caño PVC con la rodilla y caño resorte, radio (56mm). Perfilería: es como un caño hacer empalmes ahí está prohibido. Prohibido sujetar con cable canal. El resorte depende del caño que sea, y todos los resortes son para cañería liviana. Al profesor le rompieron una perforadora con percutor porque la empujaban. Como máximo 2 curvas. Para evitar CURVA y CONTRACURVA se hace la S. Sistema en bandeja, nunca hacer la unión es lo mismo que una canalización: Tendría que meter una boca, una caja, octogonal acá o lo que sea y después ahí hacer la unión. Subterráneo por las bandejas. Ciudad del Este encarnación, USA quiere triplefrontera, no dejar auto en Ciudad del Este dejarlo en Brazil. Si pasas 2 o 3 veces en encarganación te revisan todo el auto. Paraguay Box. La idea de los políticos es hacerse más plata ellos y no poner tanta industria. Diputado gana 20 millones de dólares por mes y no va a 2/3 secciones al mes. Espeche no tiene la idea de que el político haga cosas por nosotros. NO tengo que entrecruzar los caños, hacerlo de la forma más prolija para evitar el entrecruzamiento. No me hagas un caño que cruza por encima o por abajo del otro. Siempre el mejor electricista tiene que seguir una determinada estética. Hay algunos que atornillan la placa al durlock. Yo vi muchas obras con durlock que adentro no van tuberías adentro le mandan corrugado no más y a la mierda. "</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/15electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> </description>
   </item>
   <item>
     <title>title: "Electricidad / Clase 14. Canalización. Leímos catalogo Genrod (Tubeelectric). Exámen entra esquema de una acometida."</title>
     <link>https://analisismatematico2.github.io/06cursoelectricidad/14electricidad.txt</link>
-    <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     <description> </description>
   </item>
 </channel></rss>
