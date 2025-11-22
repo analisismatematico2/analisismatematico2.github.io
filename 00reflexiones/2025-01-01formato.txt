@@ -1,5 +1,1 @@
-% Titulo
-% Andrés Imlauer
-% 20 Octubre 2025
-
-Mes-día-año.
+año-mes-dia
