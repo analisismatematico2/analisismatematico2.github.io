@@ -81,8 +81,10 @@ https://download.kiwix.org/zim/zimit/ncert-audiobooks_en_all_2025-11.zim
 https://download.kiwix.org/zim/libretexts/libretexts.org_en_math_2025-01.zim
 https://download.kiwix.org/zim/other/finiki_en_all_maxi_2024-06.zim
 https://download.kiwix.org/zim/stack_exchange/money.stackexchange.com_en_all_2025-08.zim
+https://download.kiwix.org/zim/other/ecured_es_all_2019-05.zim
 
 Piper-tts speed
+
 No tapar hamburguesa.
 
 Queso parmesano a la hamburguesa.
