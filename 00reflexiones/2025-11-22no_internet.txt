@@ -91,3 +91,11 @@ Queso parmesano a la hamburguesa.
 Jabón tomate, cebolla caramelizada.
 
 
+
+Como funciona esa línea de C: 0/2 que significa eso? 
+
+[I] esotericwarfare@arch ~ [1]> mbsync -a
+/home/esotericwarfare/.mbsyncrc: notice: SSLType is deprecated. Use TLSType instead.
+Cannot connect to imap.gmail.com (108.177.123.108:993): Connection timed out
+C: 0/2  B: 5/10  F: +8/8 *1/1 #0/0 -13/13  N: +2/2 *0/0 #0/0 -0/0
+
