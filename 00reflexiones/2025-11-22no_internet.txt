@@ -2,10 +2,14 @@
 |Estoy teniendo una práctica de desconectar Internet para ver que tan esclavo soy.|
 +---------------------------------------------------------------------------------+
 
-¿Parabola tiene systemd?
-Como hago para usar ls para mostrar el tamaño de los archivos y mostrarlo en megabytes? ls -lSh | less
+* ¿Parabola tiene systemd? No. Usa OpenRC.
 
-Como grabo audio con arecord? ¿que es 8-bit sampling?
+* ¿Como hago para usar ls para mostrar el tamaño de los archivos y mostrarlo en megabytes?
+```bash
+ls -lSh | less
+```
+
+¿Cómo grabo audio con arecord? ¿Que es 8-bit sampling?
 
 arecord -f cd -t wav foobar.wav
 
@@ -30,8 +34,21 @@ arecord -f cd -t wav foobar.wav
 
 ffmpeg -f alsa -i pipewire audio.m4a
 
+Quiero tener Wikipedia en mi HDD y local LLM (Ya lo conseguí con Kiwix y llm tools list
+python -m venv llm-tools-kiwix
+pip install llm
+llm install llm-tools-kiwix
+ollama pull llama3.2 (2 GB)
+* `kiwix_search`
+* `kiwix_search_and_collect`
+* `kiwix_read`
+llm install llm-ollama
+llm models set-default ollama/llama3.2
+llm -m llama3.2
+Make sure you have **at least one ZIM file** en tu carpeta 
+llm --tool kiwix_search "Gentoo installation"
+ cd zim-llm/zim_library/
 
-Quiero tener wikipedia en mi hdd y local LLM.
 
 Descargá una wikipedia pero para informáticos.
 
@@ -99,3 +116,8 @@ Como funciona esa línea de C: 0/2 que significa eso?
 Cannot connect to imap.gmail.com (108.177.123.108:993): Connection timed out
 C: 0/2  B: 5/10  F: +8/8 *1/1 #0/0 -13/13  N: +2/2 *0/0 #0/0 -0/0
 
+
+### ChatGPT headless
+
+
+https://videos.icum.to/w/i6beCFidHV76iiXW9J2dHk

@@ -1,12 +1,12 @@
-+++ title = 'Cosas llevar'
-date = 2024-11-30T23:00:45-03:00
-tags = ['llevar']
-categories = ['alzheimer']
-thumbnail = '/alzheimerjpg.jpg'
-+++
++--------------------------------+
+|date = 2024-11-30T23:00:45-03:00|
++--------------------------------+
+
 Tengo alzheimer.
 
-Apoyador de celular, netbook, celular, cargador de compu y celular, un cambio de ropa, guantes, desodorante, cepillo de dientes, playstation2, guitarra, parlante, cámara, prolongador, pendrive, protector bucal, cable cargador parlante extra. Remera?, esp32 wifi hacking XD, alargue de cable, la antena está rota la punta, llevar para reparar radio auto gabinete PC, mouse.
+Apoyador de celular, netbook, celular, cargador de computadora y celular, un cambio de ropa, GUANTES lavar, desodorante, cepillo de dientes, parlante, cámara, prolongador, pendrive, protector bucal, cable cargador parlante extra. Remera? XD, alargue de cable, la antena está rota la punta, llevar para reparar radio auto gabinete PC, mouse, ojota, GUANTES para lavar.
+
+Opcional: playstation2, guitarra (me afanó Agustina), esp32 wifi hacking.
 
 Portalámparas.
 
@@ -23,3 +23,14 @@ tenes que llevar router/modem cable ethernet, tornillos satélite, celular cable
 AzAmerica s1005
 
 No se necesita internet pero al conectarte al modem/router desde el celular necesitás asignarte una IP en la otra interfaz, en vez de 192.168.0.123 tenés que asignarte 192.168.1.123
+
+---
+
+Intentamos llevar Azmerica S9-22 pero no funcionó.
+
+Captó los tp pero no captó los canales, no funciona. Hay ponerle una etiqueta. 
+Solo cpta canal rio ngeo estandar y tdo lo otro no capta le movi todo prque ya esta sintonizado en un momento agarro los tp eorpo pero no conwencontro canales puso los tp o k ok ok no se si hay que vovlerlo de fabrica. No se como se vuelve a fabrica, en el menú no. Hay que poner en una página compro control remoto o ir a la casa de contorl remoto a ver si tienne ese. Yo tengo control remoto que me dio marcelo hjanicosqui que le hice andar pero cnwno anda coon ese contorl o sea que es no me sirve ese.
+
+Azamerica S1005.
+
+El canal de chubut tiene muy poca señal tiene 44 pero los demas llegan a 68%.
