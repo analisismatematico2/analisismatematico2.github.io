@@ -6,6 +6,8 @@ En el mundo existen los novatos y los "expertos", los novatos son las personas q
 
 Hans Reiser es un programador prodigio que no quería mandar sus hijos al colegio, le parecía una basura la educación escolar. Terminó matándola a su esposa pero eso es otro tema. Hans intentó hacerse millonario creando un sistema de archivos llamado ReiserFS, su objetivo era que todas las distribuciones de Linux usen su ReiserFS por defecto. Dejó el colegio a los 13 años. Aunque era una persona extremadamente inteligente no pudo lograr su meta.
 
+Fíjense sus charlas en YouTube, fíjense como era la informática antes de que lo políticamente correcto arruinara absolutamente todo. La tecnología más avanzada del mundo es secreta, las empresas de tecnología en realidad son empresas de publicidad... A medida que avanza la tecnología deberían perder empleados no tener más.
+
 John Carmack creó DOOM cuando ni siquiera existía Google sólo con un puto libro de programación de C, por eso es una estafa intentar academizar todo. Hoy en día hay trescientas mil carreras para ser "programador de videojuegos" probablemente son todas una basura. 
 
 El IQ mide la velocidad de aprendizaje: la carrera universitaria LCC es un test de IQ que dura como mínimo 5 años. Un test de IQ de Mensa te lo hacés en 1 semana. Si te recibís en 5 años de LCC tenés un IQ más de 100. 
