@@ -67,4 +67,4 @@ TMP_SITEMAP="/tmp/sitemap.$$"
 #mv "$TMP_RSS" "$RSS_FILE"
 #echo "RSS generado: $RSS_FILE"
 
-git add . && git commit -m $1 && git push
+git add . && git commit -m "$1" && git push
