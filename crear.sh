@@ -12,6 +12,6 @@ find . -type d ! -path '*/.*' ! -path '.' | while read dir; do
   (cd "$dir" && tree -r -I '*.md' -H '' -o index.html && sed -i '1i <a href="../index.html">⬆️ Subir</a><br><hr>' index.html)
 done &&
 
-cp $HOME/projects/analisismatematico2.github.io/00reflexiones/* $HOME/projects/imlauer.github.io/blog &&
+cp $HOME/projects/analisismatematico2.github.io/00reflexiones/* $HOME/projects/imlauer.w10.site &&
 
 git add . && git commit -m "$1" && git push
