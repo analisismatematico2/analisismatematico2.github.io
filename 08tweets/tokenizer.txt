@@ -1,0 +1,41 @@
+@paraschopra We found a task where LLMs struggle massively!
+
+Give them a coding problem in Python and they'd work great. Give the same problem in brainfuck and zero-shot their performance is ~0%
+
++[--------->+<]>+.++[--->++<]>+.
+
+Lossfunk
+@lossfunk
+13h
+🚨 Shocking: Frontier LLMs score 85-95% on standard coding benchmarks. We gave them equivalent problems in languages they couldn't have memorized. They collapsed to 0-11%.
+
+Presenting EsoLang-Bench.
+
+Accepted to the Logical Reasoning and ICBINB workshops at ICLR 2026 🧵
+
+Enable hls playback
+Mariano Crosetti
+@MarianoCrosetti
+12h
+Replying to @paraschopra
+But tokenization could be a reason right?
+
+It’s nos just about the “memorization” argument people are arguing below 
+
+Did you try to re write the brainfuck syntax is with a more friendly char set with the underlying tokenizer that model uses?
+Mar 19, 2026 · 3:48 PM UTC
+
+---
+
+Explicación de Tokenizer:
+
+Un tokenizer convierte texto en tokens (números) que los LLMs pueden procesar.
+Cada modelo tiene un vocabulario limitado de tokens.
+Cuando escribes código en Brainfuck (solo 8 caracteres: +-<>.,[]), 
+el tokenizer probablemente fragmenta cada caracter en múltiples tokens 
+o los combina de formas extrañas, dificultando enormemente la comprensión del modelo.
+
+Esto explica por qué reescribir Brainfuck con caracteres más "amigables" 
+para el tokenizer del modelo podría mejorar su rendimiento.
+
+

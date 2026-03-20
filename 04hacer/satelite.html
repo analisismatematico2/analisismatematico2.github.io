@@ -1,0 +1,2599 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>satelite</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p>Probamos apuntar a</p>
+<h1 id="hispasat-30w---30º-oeste">HISPASAT 30W - 30º Oeste</h1>
+<h2 id="información-general">📍 INFORMACIÓN GENERAL</h2>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nombre completo</strong></td>
+<td>Hispasat 30W-5 / Hispasat 30W-6</td>
+</tr>
+<tr>
+<td><strong>Operador</strong></td>
+<td>Hispasat (Grupo Red Eléctrica)</td>
+</tr>
+<tr>
+<td><strong>Fabricante</strong></td>
+<td>Airbus Defence and Space</td>
+</tr>
+<tr>
+<td><strong>Tipo</strong></td>
+<td>Satélite de comunicaciones geoestacionario</td>
+</tr>
+<tr>
+<td><strong>Posición orbital</strong></td>
+<td>30.0º Oeste</td>
+</tr>
+<tr>
+<td><strong>Lanzamiento</strong></td>
+<td>2017 (30W-5), 2022 (30W-6)</td>
+</tr>
+<tr>
+<td><strong>Vehículo de lanzamiento</strong></td>
+<td>Ariane 5 / Falcon 9</td>
+</tr>
+<tr>
+<td><strong>Vida útil</strong></td>
+<td>15+ años</td>
+</tr>
+<tr>
+<td><strong>Estado actual</strong></td>
+<td>ACTIVO</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="datos-de-apuntamiento-desde-ituzaingó-corrientes">📡 DATOS DE
+APUNTAMIENTO DESDE ITUZAINGÓ, CORRIENTES</h2>
+<h3 id="coordenadas-de-ituzaingó">Coordenadas de Ituzaingó:</h3>
+<ul>
+<li><strong>Latitud</strong>: -27.58º Sur</li>
+<li><strong>Longitud</strong>: -56.68º Oeste</li>
+</ul>
+<h3 id="parámetros-exactos">Parámetros exactos:</h3>
+<table>
+<thead>
+<tr>
+<th>Parámetro</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Azimuth</strong></td>
+<td>74.8º Norte</td>
+</tr>
+<tr>
+<td><strong>Elevación</strong></td>
+<td><strong>46º</strong></td>
+</tr>
+<tr>
+<td><strong>Azimuth inverso</strong></td>
+<td>254.8º</td>
+</tr>
+<tr>
+<td><strong>Distancia al satélite</strong></td>
+<td>38,200 km</td>
+</tr>
+<tr>
+<td><strong>Ajuste de polarización LNB</strong></td>
+<td>Rotar ~15-20º en sentido horario</td>
+</tr>
+<tr>
+<td><strong>Banda</strong></td>
+<td>Ku</td>
+</tr>
+<tr>
+<td><strong>Dificultad de recepción</strong></td>
+<td>⭐⭐ Media (perfectamente factible)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="guía-de-apuntado-paso-a-paso">🎯 GUÍA DE APUNTADO PASO A
+PASO</h2>
+<h3 id="paso-1-configuración-inicial-del-plato">Paso 1: Configuración
+inicial del plato</h3>
+<ol type="1">
+<li>Orientá el plato hacia el <strong>Norte</strong> (~75º azimuth)</li>
+<li>Ajustá la <strong>elevación</strong> a <strong>46º</strong></li>
+<li>Rotá el <strong>LNB</strong> ~15-20º en sentido horario</li>
+</ol>
+<h3 id="paso-2-primera-búsqueda">Paso 2: Primera búsqueda</h3>
+<p>Usá este transpondedor para confirmar señal:</p>
+<table>
+<thead>
+<tr>
+<th>TP</th>
+<th>Frecuencia</th>
+<th>Polarización</th>
+<th>Symbol Rate</th>
+<th>Canal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>10730 MHz</td>
+<td><strong>H</strong></td>
+<td>30000</td>
+<td><strong>La 1 - España (RTVE)</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="paso-3-si-no-hay-señal">Paso 3: Si no hay señal</h3>
+<ul>
+<li>Mové el plato <strong>1-2º hacia el Este</strong> (aumentar
+azimuth)</li>
+<li>Esperá 5 segundos entre ajustes</li>
+<li>Revisá la calidad de señal en el decodificador</li>
+</ul>
+<h3 id="paso-4-blind-scan">Paso 4: Blind scan</h3>
+<p>Una vez encontrada señal, ejecutá un <strong>blind scan</strong> para
+encontrar todos los canales FTA</p>
+<hr />
+<h2 id="señal-confirmada">✅ SEÑAL CONFIRMADA</h2>
+<table>
+<thead>
+<tr>
+<th>Verificación</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Elevación 46º</td>
+<td>✅ Suficiente para Banda Ku</td>
+</tr>
+<tr>
+<td>Azimuth 74.8º</td>
+<td>✅ Norte偏East</td>
+</tr>
+<tr>
+<td>Plato 90cm</td>
+<td>✅ Compatible</td>
+</tr>
+<tr>
+<td>LNB Ku universal</td>
+<td>✅ Compatible</td>
+</tr>
+<tr>
+<td>Decodificador FTA</td>
+<td>✅ Compatible</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="canales-fta-españoles---hispasat-30w">📺 CANALES FTA ESPAÑOLES -
+HISPASAT 30W</h2>
+<h3 id="rtve-televisión-española">RTVE (Televisión Española)</h3>
+<table>
+<thead>
+<tr>
+<th>Canal</th>
+<th>TP</th>
+<th>Frecuencia</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Formato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>La 1</strong></td>
+<td>10730</td>
+<td>10730</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>La 2</strong></td>
+<td>11331</td>
+<td>11331</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>Canal 24 Horas</strong></td>
+<td>10770</td>
+<td>10770</td>
+<td>H</td>
+<td>22000</td>
+<td>DVB-S2/SD</td>
+</tr>
+<tr>
+<td><strong>Teledeporte</strong></td>
+<td>10949</td>
+<td>10949</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>Clan TVE</strong></td>
+<td>10949</td>
+<td>10949</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>TVE Internacional</strong></td>
+<td>11811</td>
+<td>11811</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2/SD</td>
+</tr>
+<tr>
+<td><strong>TVE Latinoamérica</strong></td>
+<td>11811</td>
+<td>11811</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2/SD</td>
+</tr>
+</tbody>
+</table>
+<h3 id="autonómicas-españolas">autonómicas españolas</h3>
+<table>
+<thead>
+<tr>
+<th>Canal</th>
+<th>TP</th>
+<th>Frecuencia</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Formato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Aragón TV</strong></td>
+<td>11330</td>
+<td>11330</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>CMM TV</strong></td>
+<td>11491</td>
+<td>11491</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>NorteVisión</strong></td>
+<td>10939</td>
+<td>10939</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>ETB 1</strong></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>Via stream</td>
+</tr>
+<tr>
+<td><strong>TV Galicia</strong></td>
+<td>12052</td>
+<td>12052</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>TV 3 Cat</strong></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>Via stream</td>
+</tr>
+<tr>
+<td><strong>Canal Parlamento</strong></td>
+<td>10770</td>
+<td>10770</td>
+<td>H</td>
+<td>22000</td>
+<td>DVB-S2/SD</td>
+</tr>
+<tr>
+<td><strong>À Punt</strong></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>Via stream</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="canales-fta-portugueses">🇵🇹 CANALES FTA PORTUGUESES</h2>
+<table>
+<thead>
+<tr>
+<th>Canal</th>
+<th>TP</th>
+<th>Frecuencia</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Formato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RTP 1</strong></td>
+<td>10758</td>
+<td>10758</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>RTP 2</strong></td>
+<td>11259</td>
+<td>11259</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>RTP 3</strong></td>
+<td>11449</td>
+<td>11449</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>RTP Madeira</strong></td>
+<td>11015</td>
+<td>11015</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>RTP África</strong></td>
+<td>11338</td>
+<td>11338</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>SIC</strong></td>
+<td>10806</td>
+<td>10806</td>
+<td>V</td>
+<td>27500</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>TVI</strong></td>
+<td>10847</td>
+<td>10847</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>SIC Notícias</strong></td>
+<td>10847</td>
+<td>10847</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>SIC Radical</strong></td>
+<td>10914</td>
+<td>10914</td>
+<td>H</td>
+<td>27500</td>
+<td>DVB-S2/HD</td>
+</tr>
+<tr>
+<td><strong>TVI 24</strong></td>
+<td>10806</td>
+<td>10806</td>
+<td>V</td>
+<td>27500</td>
+<td>DVB-S/SD</td>
+</tr>
+<tr>
+<td><strong>Bom Cine</strong></td>
+<td>10914</td>
+<td>10914</td>
+<td>H</td>
+<td>27500</td>
+<td>DVB-S2/HD</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="canales-internacionales-fta">🌍 CANALES INTERNACIONALES FTA</h2>
+<table>
+<thead>
+<tr>
+<th>Canal</th>
+<th>País</th>
+<th>TP</th>
+<th>Frecuencia</th>
+<th>Pol</th>
+<th>SR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>France 24</strong></td>
+<td>Francia</td>
+<td>11222</td>
+<td>11222</td>
+<td>V</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>BBC World</strong></td>
+<td>UK</td>
+<td>11097</td>
+<td>11097</td>
+<td>V</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>TRT World</strong></td>
+<td>Turquía</td>
+<td>11097</td>
+<td>11097</td>
+<td>V</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>Al Jazeera</strong></td>
+<td>Qatar</td>
+<td>11222</td>
+<td>11222</td>
+<td>V</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>Deutsche Welle</strong></td>
+<td>Alemania</td>
+<td>11097</td>
+<td>11097</td>
+<td>V</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>CGTN Español</strong></td>
+<td>China</td>
+<td>11097</td>
+<td>11097</td>
+<td>V</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>TV5Monde</strong></td>
+<td>Francia</td>
+<td>10873</td>
+<td>10873</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>RT Español</strong></td>
+<td>Rusia</td>
+<td>10873</td>
+<td>10873</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>NHK World</strong></td>
+<td>Japón</td>
+<td>11875</td>
+<td>11875</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="rádios-fta">📻 RÁDIOS FTA</h2>
+<table>
+<thead>
+<tr>
+<th>Rádio</th>
+<th>TP</th>
+<th>Frecuencia</th>
+<th>Pol</th>
+<th>SR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RNE Radio 1</strong></td>
+<td>10730</td>
+<td>10730</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>RNE Radio 3</strong></td>
+<td>10730</td>
+<td>10730</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>RNE Radio 4</strong></td>
+<td>10730</td>
+<td>10730</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>RNE Radio 5</strong></td>
+<td>10730</td>
+<td>10730</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>RNE Radio Exterior</strong></td>
+<td>10730</td>
+<td>10730</td>
+<td>H</td>
+<td>30000</td>
+</tr>
+<tr>
+<td><strong>RTP RDP</strong></td>
+<td>10758</td>
+<td>10758</td>
+<td>V</td>
+<td>22000</td>
+</tr>
+<tr>
+<td><strong>RTP Antena 1</strong></td>
+<td>10758</td>
+<td>10758</td>
+<td>V</td>
+<td>22000</td>
+</tr>
+<tr>
+<td><strong>RTP Con民dia</strong></td>
+<td>11259</td>
+<td>11259</td>
+<td>V</td>
+<td>22000</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="lista-completa-de-transpondedores---hispasat-30w">📋 LISTA
+COMPLETA DE TRANSPONDEDORES - HISPASAT 30W</h2>
+<h3 id="banda-ku---europa-principal">Banda Ku - Europa (principal)</h3>
+<table>
+<thead>
+<tr>
+<th>TP</th>
+<th>Frecuencia</th>
+<th>Polarización</th>
+<th>Symbol Rate</th>
+<th>Formato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>10730</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10758</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>3</td>
+<td>10770</td>
+<td>H</td>
+<td>22000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>4</td>
+<td>10806</td>
+<td>V</td>
+<td>27500</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>5</td>
+<td>10847</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10873</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>7</td>
+<td>10914</td>
+<td>H</td>
+<td>27500</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>8</td>
+<td>10939</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>9</td>
+<td>10949</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>10</td>
+<td>10982</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>11</td>
+<td>11015</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>12</td>
+<td>11097</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>13</td>
+<td>11222</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>14</td>
+<td>11259</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>15</td>
+<td>11330</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>16</td>
+<td>11331</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>17</td>
+<td>11338</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>18</td>
+<td>11449</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>19</td>
+<td>11491</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>20</td>
+<td>11510</td>
+<td>V</td>
+<td>22000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>21</td>
+<td>11558</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>22</td>
+<td>11603</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>23</td>
+<td>11731</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>24</td>
+<td>11811</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>25</td>
+<td>11875</td>
+<td>H</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>26</td>
+<td>11931</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S2</td>
+</tr>
+<tr>
+<td>27</td>
+<td>12015</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S</td>
+</tr>
+<tr>
+<td>28</td>
+<td>12052</td>
+<td>V</td>
+<td>30000</td>
+<td>DVB-S</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="configuración-recomendada">🔧 CONFIGURACIÓN RECOMENDADA</h2>
+<h3 id="decodificadores-compatibles">Decodificadores compatibles:</h3>
+<ul>
+<li>GT Media V8 Nova</li>
+<li>Satlink WS6933</li>
+<li>Azbox</li>
+<li>Azamerica S2015</li>
+<li>cualquier receptor FTA con blind scan</li>
+</ul>
+<h3 id="plato-recomendado">Plato recomendado:</h3>
+<ul>
+<li><strong>60-90cm</strong> para Banda Ku</li>
+<li>LNB Universal Ku</li>
+</ul>
+<h3 id="orden-de-búsqueda">Orden de búsqueda:</h3>
+<ol type="1">
+<li>Comenzar con TP 10730 H (La 1 - señal fuerte)</li>
+<li>Hacer blind scan</li>
+<li>Guardar canales</li>
+</ol>
+<hr />
+<h2 id="resumen-de-canales-fta">📊 RESUMEN DE CANALES FTA</h2>
+<table>
+<thead>
+<tr>
+<th>Categoría</th>
+<th>Cantidad aprox.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Canales españoles</td>
+<td>10-15</td>
+</tr>
+<tr>
+<td>Canales portugueses</td>
+<td>8-10</td>
+</tr>
+<tr>
+<td>Canales internacionales</td>
+<td>5-10</td>
+</tr>
+<tr>
+<td>Radios</td>
+<td>10+</td>
+</tr>
+<tr>
+<td><strong>TOTAL FTA</strong></td>
+<td><strong>~35-45 canales</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="información-de-hispasat">🏢 INFORMACIÓN DE HISPASAT</h2>
+<p><strong>Hispasat (Grupo Red Eléctrica)</strong> -
+<strong>Website</strong>: https://www.hispasat.com/ -
+<strong>Sede</strong>: Madrid, España - <strong>Flota</strong>: 30W-5,
+30W-6, 30W-4, 1D, etc. - <strong>Función</strong>: líder en satélites
+españoles y portugueses</p>
+<hr />
+<h2 id="notas-importantes">⚠️ NOTAS IMPORTANTES</h2>
+<ol type="1">
+<li><strong>La mayoría son feeds</strong>: Muchos TPs son feeds de
+noticias/eventos que cambian</li>
+<li><strong>RTP es más accesible</strong>: Los canales portugueses son
+más fáciles de captar</li>
+<li><strong>RTVE es público</strong>: Los canales de TVE son FTA por ley
+española</li>
+<li><strong>Actualizaciones</strong>: Los canales cambian
+frecuentemente</li>
+<li><strong>Beam</strong>: Hay beams para Europa, América y África</li>
+</ol>
+<hr />
+<h2 id="fuentes">🔗 FUENTES</h2>
+<ul>
+<li>https://www.lyngsat.com/freetv/Spain.html</li>
+<li>https://www.lyngsat.com/freetv/Portugal.html</li>
+<li>https://www.hispasat.com/</li>
+<li>https://www.portalbsd.com.br/</li>
+</ul>
+<hr />
+<h1 id="guía-completa-satélites-fta-en-português">Guía Completa:
+Satélites FTA en Português</h1>
+<h2 id="posición-del-observador">Posición del Observador</h2>
+<ul>
+<li><strong>Ciudad</strong>: Argentina</li>
+<li><strong>Latitud</strong>: -27.58º Sur</li>
+<li><strong>Longitud</strong>: -56.68º Oeste</li>
+</ul>
+<hr />
+<h2 id="todos-los-satélites-brasileños---datos-de-apuntamiento">📡 TODOS
+LOS SATÉLITES BRASILEÑOS - DATOS DE APUNTAMIENTO</h2>
+<h3 id="star-one-d2---70ºw-mejor-para-argentina">STAR ONE D2 - 70ºW ⭐
+(MEJOR PARA ARGENTINA)</h3>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Posición orbital</strong></td>
+<td>70.0º Oeste</td>
+</tr>
+<tr>
+<td><strong>Azimuth</strong></td>
+<td>34.2º Norte</td>
+</tr>
+<tr>
+<td><strong>Elevación</strong></td>
+<td>62.7º</td>
+</tr>
+<tr>
+<td><strong>Azimuth inverso</strong></td>
+<td>214.2º</td>
+</tr>
+<tr>
+<td><strong>Distancia</strong></td>
+<td>37,105 km</td>
+</tr>
+<tr>
+<td><strong>Polarización LNB</strong></td>
+<td>Ajustar -5.4º</td>
+</tr>
+<tr>
+<td><strong>Tipo de señal</strong></td>
+<td>Banda C y Ku</td>
+</tr>
+<tr>
+<td><strong>Canales FTA</strong></td>
+<td>~50+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="amazonas-3-amazonas-5---61ºw">AMAZONAS 3 / AMAZONAS 5 -
+61ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Posición orbital</strong></td>
+<td>61.0º Oeste</td>
+</tr>
+<tr>
+<td><strong>Azimuth</strong></td>
+<td>46.8º Norte</td>
+</tr>
+<tr>
+<td><strong>Elevación</strong></td>
+<td>58.9º</td>
+</tr>
+<tr>
+<td><strong>Azimuth inverso</strong></td>
+<td>226.8º</td>
+</tr>
+<tr>
+<td><strong>Distancia</strong></td>
+<td>38,200 km</td>
+</tr>
+<tr>
+<td><strong>Polarización LNB</strong></td>
+<td>Ajustar -2.3º</td>
+</tr>
+<tr>
+<td><strong>Tipo de señal</strong></td>
+<td>Banda C y Ku</td>
+</tr>
+<tr>
+<td><strong>Canales FTA</strong></td>
+<td>~20+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="star-one-c3---75ºw">STAR ONE C3 - 75ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Posición orbital</strong></td>
+<td>75.0º Oeste</td>
+</tr>
+<tr>
+<td><strong>Azimuth</strong></td>
+<td>29.5º Norte</td>
+</tr>
+<tr>
+<td><strong>Elevación</strong></td>
+<td>63.8º</td>
+</tr>
+<tr>
+<td><strong>Azimuth inverso</strong></td>
+<td>209.5º</td>
+</tr>
+<tr>
+<td><strong>Distancia</strong></td>
+<td>36,500 km</td>
+</tr>
+<tr>
+<td><strong>Polarización LNB</strong></td>
+<td>Ajustar -6.1º</td>
+</tr>
+<tr>
+<td><strong>Tipo de señal</strong></td>
+<td>Banda C</td>
+</tr>
+<tr>
+<td><strong>Canales FTA</strong></td>
+<td>~30+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="star-one-c4---70ºw-cerca-de-d2">STAR ONE C4 - 70ºW (cerca de
+D2)</h3>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Posición orbital</strong></td>
+<td>70.0º Oeste</td>
+</tr>
+<tr>
+<td><strong>Azimuth</strong></td>
+<td>34.2º Norte</td>
+</tr>
+<tr>
+<td><strong>Elevación</strong></td>
+<td>62.7º</td>
+</tr>
+<tr>
+<td><strong>Azimuth inverso</strong></td>
+<td>214.2º</td>
+</tr>
+<tr>
+<td><strong>Distancia</strong></td>
+<td>37,100 km</td>
+</tr>
+<tr>
+<td><strong>Polarización LNB</strong></td>
+<td>Ajustar -5.4º</td>
+</tr>
+<tr>
+<td><strong>Tipo de señal</strong></td>
+<td>Banda Ku</td>
+</tr>
+<tr>
+<td><strong>Canales FTA</strong></td>
+<td>~15+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="star-one-c2---70ºw-legacy-reemplazar-por-d2">STAR ONE C2 - 70ºW
+(Legacy, reemplazar por D2)</h3>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Posición orbital</strong></td>
+<td>70.0º Oeste</td>
+</tr>
+<tr>
+<td><strong>Azimuth</strong></td>
+<td>34.2º Norte</td>
+</tr>
+<tr>
+<td><strong>Elevación</strong></td>
+<td>62.7º</td>
+</tr>
+<tr>
+<td><strong>Azimuth inverso</strong></td>
+<td>214.2º</td>
+</tr>
+<tr>
+<td><strong>Distancia</strong></td>
+<td>37,105 km</td>
+</tr>
+<tr>
+<td><strong>Polarización LNB</strong></td>
+<td>Ajustar -5.4º</td>
+</tr>
+<tr>
+<td><strong>Tipo de señal</strong></td>
+<td>Banda C</td>
+</tr>
+<tr>
+<td><strong>Estado</strong></td>
+<td>En deshuso, migrado a D2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ses-6---40.5ºw">SES 6 - 40.5ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Posición orbital</strong></td>
+<td>40.5º Oeste</td>
+</tr>
+<tr>
+<td><strong>Azimuth</strong></td>
+<td>64.3º Norte</td>
+</tr>
+<tr>
+<td><strong>Elevación</strong></td>
+<td>50.8º</td>
+</tr>
+<tr>
+<td><strong>Azimuth inverso</strong></td>
+<td>244.3º</td>
+</tr>
+<tr>
+<td><strong>Distancia</strong></td>
+<td>39,800 km</td>
+</tr>
+<tr>
+<td><strong>Polarización LNB</strong></td>
+<td>Ajustar +3.8º</td>
+</tr>
+<tr>
+<td><strong>Tipo de señal</strong></td>
+<td>Banda C y Ku</td>
+</tr>
+<tr>
+<td><strong>Canales FTA</strong></td>
+<td>~10+</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="tabla-resumen-de-todos-los-satélites">📊 TABLA RESUMEN DE TODOS
+LOS SATÉLITES</h2>
+<table>
+<thead>
+<tr>
+<th>Satélite</th>
+<th>Posición</th>
+<th>Azimuth</th>
+<th>Elevación</th>
+<th>Dificultad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Star One D2</td>
+<td>70.0ºW</td>
+<td>34.2º N</td>
+<td>62.7º</td>
+<td>⭐ Fácil</td>
+</tr>
+<tr>
+<td>Star One C3</td>
+<td>75.0ºW</td>
+<td>29.5º N</td>
+<td>63.8º</td>
+<td>⭐ Fácil</td>
+</tr>
+<tr>
+<td>Star One C4</td>
+<td>70.0ºW</td>
+<td>34.2º N</td>
+<td>62.7º</td>
+<td>⭐ Fácil</td>
+</tr>
+<tr>
+<td>Amazonas 3/5</td>
+<td>61.0ºW</td>
+<td>46.8º N</td>
+<td>58.9º</td>
+<td>⭐⭐ Media</td>
+</tr>
+<tr>
+<td>SES 6</td>
+<td>40.5ºW</td>
+<td>64.3º N</td>
+<td>50.8º</td>
+<td>⭐⭐⭐ Más difícil</td>
+</tr>
+<tr>
+<td>Intelsat 14</td>
+<td>45.0ºW</td>
+<td>60.5º N</td>
+<td>52.5º</td>
+<td>⭐⭐ Media</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="parámetros-de-transpondedores-tp">PARÁMETROS DE TRANSPONDEDORES
+(TP)</h2>
+<h3 id="star-one-d2---70ºw">STAR ONE D2 - 70ºW</h3>
+<h4 id="banda-c---star-one-d2">Banda C - Star One D2</h4>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>Symbol Rate</th>
+<th>Formato</th>
+<th>Canal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3756 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal Saúde, Canal Gov</td>
+</tr>
+<tr>
+<td>3777 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>RBTV</td>
+</tr>
+<tr>
+<td>3847 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Boas Novas</td>
+</tr>
+<tr>
+<td>3870 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>TV Diário Fortaleza (FTA!)</td>
+</tr>
+<tr>
+<td>3923 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>Canal do Boi</td>
+</tr>
+<tr>
+<td>3926 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Agro Canal, EPTV Sul</td>
+</tr>
+<tr>
+<td>3948 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal Futura</td>
+</tr>
+<tr>
+<td>3949 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>JP News</td>
+</tr>
+<tr>
+<td>3970 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>ALECE TV</td>
+</tr>
+<tr>
+<td>3974 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/SD</td>
+<td>Canal do Criador</td>
+</tr>
+<tr>
+<td>3990 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/1seg</td>
+<td>Band SP</td>
+</tr>
+<tr>
+<td>3993 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>AgroCanal, Canal do Boi</td>
+</tr>
+<tr>
+<td>4075 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Box Kids TV, Music Box Brazil</td>
+</tr>
+<tr>
+<td>4085 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>Canal Saúde</td>
+</tr>
+<tr>
+<td>4130 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Assembleia do Amazonas</td>
+</tr>
+</tbody>
+</table>
+<h4 id="banda-ku---star-one-d2">Banda Ku - Star One D2</h4>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 10%" />
+<col style="width: 28%" />
+<col style="width: 19%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>Symbol Rate</th>
+<th>Formato</th>
+<th>Canal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11740 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Auto+ TV, CNN Brasil, Polishop</td>
+</tr>
+<tr>
+<td>11780 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal UOL, Igreja Cristã Maranata, Play TV</td>
+</tr>
+<tr>
+<td>11860 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>+Brasil TV, BRTV Max, IMPD TV</td>
+</tr>
+<tr>
+<td>11900 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>RBI TV</td>
+</tr>
+<tr>
+<td>11940 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>JP News</td>
+</tr>
+<tr>
+<td>12000 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal do Boi, Canal Rural, Gazin</td>
+</tr>
+</tbody>
+</table>
+<h3 id="star-one-c3---75ºw-1">STAR ONE C3 - 75ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3775 H</td>
+<td>H</td>
+<td>30000</td>
+<td>RCN, Boas Novas</td>
+</tr>
+<tr>
+<td>3820 V</td>
+<td>V</td>
+<td>30000</td>
+<td>CineBrasil TV</td>
+</tr>
+<tr>
+<td>3846 V</td>
+<td>V</td>
+<td>30000</td>
+<td>RBI TV</td>
+</tr>
+<tr>
+<td>3868 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Boa Vontade TV</td>
+</tr>
+<tr>
+<td>3949 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Band Vale</td>
+</tr>
+<tr>
+<td>3984 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Band Amazonas</td>
+</tr>
+<tr>
+<td>4083 H</td>
+<td>H</td>
+<td>30000</td>
+<td>Band Campinas</td>
+</tr>
+<tr>
+<td>4120 H</td>
+<td>H</td>
+<td>30000</td>
+<td>Band News, Fish TV</td>
+</tr>
+<tr>
+<td>4125 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Band RS</td>
+</tr>
+<tr>
+<td>4134 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Inter TV (regional)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="amazonas-3---61ºw">AMAZONAS 3 - 61ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3960 H</td>
+<td>H</td>
+<td>30000</td>
+<td>Assembleia Legislative TV</td>
+</tr>
+<tr>
+<td>10970 V</td>
+<td>V</td>
+<td>30000</td>
+<td>(Feed)</td>
+</tr>
+<tr>
+<td>11015 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Amazon Sat</td>
+</tr>
+<tr>
+<td>11065 V</td>
+<td>V</td>
+<td>30000</td>
+<td>(Feed)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ses-6---40.5ºw-1">SES 6 - 40.5ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11480 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Canal Gov</td>
+</tr>
+<tr>
+<td>11538 V</td>
+<td>V</td>
+<td>30000</td>
+<td>(Feed)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="canales-fta-en-portugués---lista-completa">CANALES FTA EN
+PORTUGUÉS - LISTA COMPLETA</h2>
+<h3 id="canais-de-tv-aberta">📺 Canais de TV Aberta:</h3>
+<table>
+<thead>
+<tr>
+<th>Canal</th>
+<th>Satélite</th>
+<th>TP</th>
+<th>Idioma</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TV Diário Fortaleza</strong></td>
+<td>Star One D2</td>
+<td>3870 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>AgroCanal</strong></td>
+<td>Star One D2</td>
+<td>3993 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal do Boi</strong></td>
+<td>Star One D2</td>
+<td>3923 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal Futura</strong></td>
+<td>Star One D2</td>
+<td>3948 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal Saúde</strong></td>
+<td>Star One D2</td>
+<td>4085 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Boas Novas</strong></td>
+<td>Star One D2</td>
+<td>3847 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>RBTV</strong></td>
+<td>Star One D2</td>
+<td>3777 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>ALECE TV</strong></td>
+<td>Star One D2</td>
+<td>3970 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Band SP</strong></td>
+<td>Star One D2</td>
+<td>3990 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>EPTV Sul de Minas</strong></td>
+<td>Star One D2</td>
+<td>3926 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>+Brasil TV</strong></td>
+<td>Star One D2</td>
+<td>11860 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>BRTV Max</strong></td>
+<td>Star One D2</td>
+<td>11860 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>IMPD TV</strong></td>
+<td>Star One D2</td>
+<td>11860 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal UOL</strong></td>
+<td>Star One D2</td>
+<td>11780 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Play TV</strong></td>
+<td>Star One D2</td>
+<td>11780 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>RBI TV</strong></td>
+<td>Star One D2</td>
+<td>11900 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Auto+ TV</strong></td>
+<td>Star One D2</td>
+<td>11740 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>CNN Brasil</strong></td>
+<td>Star One D2</td>
+<td>11740 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal Rural</strong></td>
+<td>Star One D2</td>
+<td>12000 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Box Kids TV</strong></td>
+<td>Star One D2</td>
+<td>4075 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Music Box Brazil</strong></td>
+<td>Star One D2</td>
+<td>4075 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Igreja Cristã Maranata</strong></td>
+<td>Star One D2</td>
+<td>11780 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>JP News</strong></td>
+<td>Star One D2</td>
+<td>3949 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>CineBrasil TV</strong></td>
+<td>Star One C3</td>
+<td>3820 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Boa Vontade TV</strong></td>
+<td>Star One C3</td>
+<td>3868 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Band Amazonas</strong></td>
+<td>Star One C3</td>
+<td>3984 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Inter TV (regional)</strong></td>
+<td>Star One C3</td>
+<td>4134 V</td>
+<td>Português</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rádios-fta-1">📻 Rádios FTA:</h3>
+<table>
+<thead>
+<tr>
+<th>Rádio</th>
+<th>Satélite</th>
+<th>TP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Rádio CBN SP</strong></td>
+<td>Star One D2</td>
+<td>3993 H</td>
+</tr>
+<tr>
+<td><strong>Rádio Justiça</strong></td>
+<td>Star One D2</td>
+<td>4085 V</td>
+</tr>
+<tr>
+<td><strong>Rádio Imaculada</strong></td>
+<td>Star One D2</td>
+<td>4085 V</td>
+</tr>
+<tr>
+<td><strong>Rádio Paraná Educativa</strong></td>
+<td>Star One D2</td>
+<td>3990 V</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="equipamiento-necesario">EQUIPAMIENTO NECESARIO</h2>
+<h3 id="mínimo-para-comenzar">Mínimo para comenzar:</h3>
+<ul>
+<li><strong>Plato</strong>: 90cm (mínimo) - 1.5m (recomendado para Banda
+C)</li>
+<li><strong>LNB</strong>: Universal Ku (para FTA en Banda Ku)</li>
+<li><strong>Decodificador</strong>: FTA con blind scan
+<ul>
+<li>GT Media V8 Nova</li>
+<li>Satlink WS6933</li>
+<li>Azbox</li>
+<li>Azamerica S2015</li>
+</ul></li>
+</ul>
+<h3 id="para-nova-parabólica-banda-ku-moderna">Para “Nova Parabólica”
+(Banda Ku moderna):</h3>
+<ul>
+<li><strong>LNB</strong>: SL121 (necessario para SAT HD Regional)</li>
+<li><strong>Decodificador</strong>: Compatível com ISDB-Tb (SBTVD)</li>
+<li><strong>Plato</strong>: 60cm suficiente</li>
+</ul>
+<hr />
+<h2 id="como-apuntar-la-antena">COMO APUNTAR LA ANTENA</h2>
+<h3 id="paso-a-paso">Paso a paso:</h3>
+<ol type="1">
+<li><strong>Instalar el plato</strong> orientado hacia el Norte</li>
+<li><strong>Conectar</strong> el decodificador y TV</li>
+<li><strong>Buscar señal</strong> con el satfinder</li>
+<li><strong>Ajustar azimuth</strong> (derecha/izquierda)</li>
+<li><strong>Ajustar elevación</strong> (arriba/abajo)</li>
+<li><strong>Afinar polarización</strong> del LNB</li>
+<li><strong>Hacer blind scan</strong> para encontrar canales</li>
+</ol>
+<h3 id="orden-de-búsqueda-recomendada">Orden de búsqueda
+recomendada:</h3>
+<ol type="1">
+<li><strong>Star One D2 (70ºW)</strong> - Más canales, señal más
+fuerte</li>
+<li><strong>Star One C3 (75ºW)</strong> - Canales regionales
+adicionales</li>
+<li><strong>Amazonas (61ºW)</strong> - Amazon Sat</li>
+<li><strong>SES 6 (40.5ºW)</strong> - Canales adicionales</li>
+</ol>
+<h3 id="tips-importantes">Tips importantes:</h3>
+<ul>
+<li>Start con D2 (70ºW) - es el más fácil desde tu ubicación</li>
+<li>Desde Argentina tenés muy buena elevación (&gt;60º) para todos</li>
+<li>Un plato de 90cm alcanza para Banda Ku</li>
+<li>Para Banda C necesitas 1.5m+</li>
+<li>La elevación alta (62-64º) facilita mucho la recepción</li>
+</ul>
+<hr />
+<h2 id="fórmula-para-calcular-azimuth">FÓRMULA PARA CALCULAR
+AZIMUTH</h2>
+<pre><code>Azimuth = atan2(sin(λ_sat - λ_loc), cos(lat_loc) * tan(lat_sat) - sin(lat_loc) * cos(λ_sat - λ_loc))
+Elevación = 90 - acos(sqrt(1 + sin²(lat_loc) - sin²(lat_sat)) / cos(lat_loc) * cos(lat_sat))</code></pre>
+<p>Donde: - λ_sat = posición del satélite (negativo para Oeste) - λ_loc
+= longitud del observador (-56.68) - lat_loc = latitud del observador
+(-27.58)</p>
+<hr />
+<h2 id="fuentes-1">FUENTES</h2>
+<ul>
+<li>LyngSat: https://www.lyngsat.com/freetv/Brazil.html</li>
+<li>PortalBSD: https://www.portalbsd.com.br/</li>
+<li>Opción FTA: https://opcionfta.blogspot.com/</li>
+<li>Satellite Maps y cálculos orbitales</li>
+</ul>
+<hr />
+<h2 id="atualizado-março-2026">Atualizado: Março 2026</h2>
+<h1 id="canales-fta-en-português---satélites-brasileños">Canales FTA en
+Português - Satélites Brasileños</h1>
+<h2
+id="melhor-satélite-para-ituzaingó-corrientes-star-one-d2-70ºw">Melhor
+Satélite para Ituzaingó, Corrientes: Star One D2 (70ºW)</h2>
+<hr />
+<h2 id="star-one-d2---70ºw-principal-para-português">STAR ONE D2 - 70ºW
+⭐ (Principal para Português)</h2>
+<h3 id="dados-do-apontamento-ituzaingó-corrientes">Dados do Apontamento
+(Ituzaingó, Corrientes):</h3>
+<ul>
+<li><strong>Posição</strong>: 70º Oeste</li>
+<li><strong>Azimuth</strong>: ~34º Norte</li>
+<li><strong>Elevação</strong>: ~63º</li>
+<li><strong>Polarização</strong>: Linear V/H</li>
+</ul>
+<hr />
+<h2 id="parâmetros-de-transpondedores-tp">PARÂMETROS DE TRANSPONDEDORES
+(TP)</h2>
+<h3 id="banda-c---star-one-d2-1">Banda C - Star One D2</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>Symbol Rate</th>
+<th>Formato</th>
+<th>Canais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3756 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal Saúde, Canal Gov</td>
+</tr>
+<tr>
+<td>3777 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>RBTV</td>
+</tr>
+<tr>
+<td>3847 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Boas Novas</td>
+</tr>
+<tr>
+<td>3870 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>TV Diário Fortaleza (FTA!)</td>
+</tr>
+<tr>
+<td>3923 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>Canal do Boi</td>
+</tr>
+<tr>
+<td>3926 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Agro Canal, EPTV Sul</td>
+</tr>
+<tr>
+<td>3948 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal Futura</td>
+</tr>
+<tr>
+<td>3949 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>JP News</td>
+</tr>
+<tr>
+<td>3970 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>ALECE TV</td>
+</tr>
+<tr>
+<td>3974 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/SD</td>
+<td>Canal do Criador</td>
+</tr>
+<tr>
+<td>3990 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/1seg</td>
+<td>Band SP</td>
+</tr>
+<tr>
+<td>3993 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>AgroCanal, Canal do Boi</td>
+</tr>
+<tr>
+<td>4075 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Box Kids TV, Music Box Brazil</td>
+</tr>
+<tr>
+<td>4085 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>Canal Saúde</td>
+</tr>
+<tr>
+<td>4130 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Assembleia do Amazonas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="banda-ku---star-one-d2-1">Banda Ku - Star One D2</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 10%" />
+<col style="width: 27%" />
+<col style="width: 19%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>Symbol Rate</th>
+<th>Formato</th>
+<th>Canais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11740 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Auto+ TV, CNN Brasil, Polishop</td>
+</tr>
+<tr>
+<td>11780 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal UOL, Igreja Cristã Maranata, Play TV</td>
+</tr>
+<tr>
+<td>11860 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>+Brasil TV, BRTV Max, IMPD TV</td>
+</tr>
+<tr>
+<td>11884 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>(Feed)</td>
+</tr>
+<tr>
+<td>11900 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>RBI TV</td>
+</tr>
+<tr>
+<td>11940 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>JP News</td>
+</tr>
+<tr>
+<td>12000 V</td>
+<td>V</td>
+<td>30000</td>
+<td>MPEG-4/HD</td>
+<td>Canal do Boi, Canal Rural, Gazin</td>
+</tr>
+<tr>
+<td>12020 H</td>
+<td>H</td>
+<td>30000</td>
+<td>MPEG-4</td>
+<td>(Feed)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="canais-fta-em-português---lista-completa">CANAIS FTA EM
+PORTUGUÊS - LISTA COMPLETA</h2>
+<h3 id="canais-de-tv-aberta-1">📺 Canais de TV Aberta:</h3>
+<table>
+<thead>
+<tr>
+<th>Canal</th>
+<th>Satélite</th>
+<th>TP</th>
+<th>Idioma</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TV Diário Fortaleza</strong></td>
+<td>Star One D2</td>
+<td>3870 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>AgroCanal</strong></td>
+<td>Star One D2</td>
+<td>3993 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal do Boi</strong></td>
+<td>Star One D2</td>
+<td>3923 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal Futura</strong></td>
+<td>Star One D2</td>
+<td>3948 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal Saúde</strong></td>
+<td>Star One D2</td>
+<td>4085 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Boas Novas</strong></td>
+<td>Star One D2</td>
+<td>3847 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>RBTV</strong></td>
+<td>Star One D2</td>
+<td>3777 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>ALECE TV</strong></td>
+<td>Star One D2</td>
+<td>3970 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Band SP</strong></td>
+<td>Star One D2</td>
+<td>3990 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>EPTV Sul de Minas</strong></td>
+<td>Star One D2</td>
+<td>3926 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>+Brasil TV</strong></td>
+<td>Star One D2</td>
+<td>11860 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>BRTV Max</strong></td>
+<td>Star One D2</td>
+<td>11860 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>IMPD TV</strong></td>
+<td>Star One D2</td>
+<td>11860 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal UOL</strong></td>
+<td>Star One D2</td>
+<td>11780 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Play TV</strong></td>
+<td>Star One D2</td>
+<td>11780 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>RBI TV</strong></td>
+<td>Star One D2</td>
+<td>11900 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Auto+ TV</strong></td>
+<td>Star One D2</td>
+<td>11740 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>CNN Brasil</strong></td>
+<td>Star One D2</td>
+<td>11740 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Canal Rural</strong></td>
+<td>Star One D2</td>
+<td>12000 V</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Box Kids TV</strong></td>
+<td>Star One D2</td>
+<td>4075 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Music Box Brazil</strong></td>
+<td>Star One D2</td>
+<td>4075 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>Igreja Cristã Maranata</strong></td>
+<td>Star One D2</td>
+<td>11780 H</td>
+<td>Português</td>
+</tr>
+<tr>
+<td><strong>JP News</strong></td>
+<td>Star One D2</td>
+<td>3949 H</td>
+<td>Português</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rádios-fta-2">📻 Rádios FTA:</h3>
+<table>
+<thead>
+<tr>
+<th>Rádio</th>
+<th>Satélite</th>
+<th>TP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Rádio CBN SP</strong></td>
+<td>Star One D2</td>
+<td>3993 H</td>
+</tr>
+<tr>
+<td><strong>Rádio Justiça</strong></td>
+<td>Star One D2</td>
+<td>4085 V</td>
+</tr>
+<tr>
+<td><strong>Rádio Imaculada</strong></td>
+<td>Star One D2</td>
+<td>4085 V</td>
+</tr>
+<tr>
+<td><strong>Rádio Paraná Educativa</strong></td>
+<td>Star One D2</td>
+<td>3990 V</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="outros-satélites-brasileiros">OUTROS SATÉLITES BRASILEIROS</h2>
+<h3 id="star-one-c3---75ºw-2">Star One C3 - 75ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3775 H</td>
+<td>H</td>
+<td>30000</td>
+<td>RCN, Boas Novas</td>
+</tr>
+<tr>
+<td>3820 V</td>
+<td>V</td>
+<td>30000</td>
+<td>CineBrasil TV</td>
+</tr>
+<tr>
+<td>3846 V</td>
+<td>V</td>
+<td>30000</td>
+<td>RBI TV</td>
+</tr>
+<tr>
+<td>3868 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Boa Vontade TV</td>
+</tr>
+<tr>
+<td>3949 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Band Vale</td>
+</tr>
+<tr>
+<td>3984 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Band Amazonas</td>
+</tr>
+<tr>
+<td>4083 H</td>
+<td>H</td>
+<td>30000</td>
+<td>Band Campinas</td>
+</tr>
+<tr>
+<td>4120 H</td>
+<td>H</td>
+<td>30000</td>
+<td>Band News, Fish TV</td>
+</tr>
+<tr>
+<td>4125 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Band RS</td>
+</tr>
+<tr>
+<td>4134 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Inter TV (regional)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="star-one-c4---70ºw">Star One C4 - 70ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12580 H</td>
+<td>H</td>
+<td>30000</td>
+<td>Canal Gov</td>
+</tr>
+<tr>
+<td>12609 V</td>
+<td>V</td>
+<td>30000</td>
+<td>TV Aparecida</td>
+</tr>
+</tbody>
+</table>
+<h3 id="amazonas-3---61ºw-1">Amazonas 3 - 61ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3960 H</td>
+<td>H</td>
+<td>30000</td>
+<td>Assembleia Legislative TV</td>
+</tr>
+<tr>
+<td>10970 V</td>
+<td>V</td>
+<td>30000</td>
+<td>(Feed)</td>
+</tr>
+<tr>
+<td>11015 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Amazon Sat</td>
+</tr>
+</tbody>
+</table>
+<h3 id="intelsat-14---45ºw">Intelsat 14 - 45ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3825 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Amazon Sat Ácre</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ses-6---40.5ºw-2">SES 6 - 40.5ºW</h3>
+<table>
+<thead>
+<tr>
+<th>Frequência</th>
+<th>Pol</th>
+<th>SR</th>
+<th>Canais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11480 V</td>
+<td>V</td>
+<td>30000</td>
+<td>Canal Gov</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="equipamento-necessário">EQUIPAMENTO NECESSÁRIO</h2>
+<h3 id="mínimo">Mínimo:</h3>
+<ul>
+<li><strong>Prato</strong>: 90cm (Banda C) ou 60cm (Banda Ku)</li>
+<li><strong>LNB</strong>: Universal Ku ou LNB Banda C</li>
+<li><strong>Decodificador</strong>: FTA com blind scan
+<ul>
+<li>GT Media V8 Nova</li>
+<li>Satlink WS6933</li>
+<li>Azbox</li>
+</ul></li>
+</ul>
+<h3 id="para-nova-parabólica-banda-ku">Para “Nova Parabólica” (Banda
+Ku):</h3>
+<ul>
+<li><strong>LNB</strong>: SL121 (necessário para SAT HD Regional)</li>
+<li><strong>Decodificador</strong>: Compatível com ISDB-Tb (SBTVD)</li>
+</ul>
+<hr />
+<h2 id="como-apontar-desde-ituzaingó">COMO APONTAR DESDE ITUZAINGÓ</h2>
+<h3 id="ordém-de-busca-recomendada">Ordém de busca recomendada:</h3>
+<ol type="1">
+<li><strong>Star One D2 (70ºW)</strong> - Mais canais, sinal forte</li>
+<li><strong>Star One C3 (75ºW)</strong> - Canais regionais</li>
+<li><strong>Star One C4 (70ºW)</strong> - Backup</li>
+<li><strong>Amazonas 3 (61ºW)</strong> - Amazon Sat</li>
+</ol>
+<h3 id="dicas">Dicas:</h3>
+<ul>
+<li>Señal más fuerte en Banda Ku para Argentina</li>
+<li>Con plato de 60cm puedes recibir D2</li>
+<li>Para Banda C necesitas plato de 1.5m+</li>
+</ul>
+<hr />
+<h2 id="fontes">FONTES</h2>
+<ul>
+<li>LyngSat: https://www.lyngsat.com/freetv/Brazil.html</li>
+<li>PortalBSD: https://www.portalbsd.com.br/</li>
+<li>Opción FTA: https://opcionfta.blogspot.com/</li>
+</ul>
+<hr />
+<h2 id="atualizado-março-2026-1">Atualizado: Março 2026</h2>
+</body>
+</html>
