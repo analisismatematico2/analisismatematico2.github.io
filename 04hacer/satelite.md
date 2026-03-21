@@ -1,5 +1,9 @@
 Probamos apuntar a
 
+No lo hicimos. Estaba demasiado lejos.
+
+Banda C 4 giga banda Ku es 10-12
+
 
 # HISPASAT 30W - 30º Oeste
 
