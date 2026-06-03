@@ -4,7 +4,28 @@
 
 Tengo alzheimer.
 
-Apoyador de celular, netbook, celular, cargador de computadora y celular, un cambio de ropa, GUANTES lavar, desodorante, cepillo de dientes, parlante, cámara, prolongador, pendrive, protector bucal, cable cargador parlante extra. Remera? XD, alargue de cable, la antena está rota la punta, llevar para reparar radio auto gabinete PC (actualización arreglado a comienzos o mediados del 2025), mouse, ojota, GUANTES para lavar.
+1. Apoyador de celular.
+2. netbook, cargador de netbook.
+3. mouse, auricular.
+4. prolongador.
+5. ojota/crocs.
+6. celular y cargador.
+7. Remera? XD.
+8. un cambio de ropa.
+9. GUANTES lavar.
+10. desodorante.
+11. cepillo de dientes y dentrifico.
+12. mini-parlante.
+13. cargador extra para parlante.
+14. protector bucal.
+15. cámara esp32 (programador)
+16. pendrives
+
+Alargue de cable, la antena está rota la punta.
+
+Viejo: Llevar para reparar radio auto gabinete PC (actualización arreglado a comienzos o mediados del 2025),, GUANTES para lavar.
+
+
 Está lleno de hormigas levantá los cables al conectar cargador PC.
 
 ####### Policia #######
