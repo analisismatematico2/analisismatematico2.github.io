@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MÁS PLATA DE MONO — Fin del capitalismo</title>
+<style>
+  :root {
+    --bg: #07070c;
+    --panel: #101018;
+    --verde: #00ff88;
+    --rosa: #ff3366;
+    --amarillo: #ffcc00;
+    --violeta: #bd00ff;
+    --texto: #d8d8e0;
+    --gris: #7a7a8c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--texto);
+    font-family: 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 18px 80px; }
+  header.hero {
+    border-bottom: 3px solid var(--rosa);
+    padding: 46px 18px 34px;
+    text-align: center;
+    background:
+      radial-gradient(circle at 20% 10%, rgba(189,0,255,.15), transparent 45%),
+      radial-gradient(circle at 80% 90%, rgba(255,51,102,.15), transparent 45%),
+      var(--panel);
+  }
+  h1 {
+    margin: 10px 0 6px;
+    font-size: clamp(2rem, 7vw, 3.6rem);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--verde);
+    text-shadow: 0 0 18px rgba(0,255,136,.45);
+  }
+  .hero .sub {
+    color: var(--rosa);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .95rem;
+    margin-bottom: 4px;
+  }
+  .hero .manifiesto {
+    max-width: 660px;
+    margin: 14px auto 0;
+    color: var(--gris);
+    font-size: .95rem;
+  }
+  .toc {
+    background: var(--panel);
+    border: 1px dashed var(--gris);
+    border-radius: 8px;
+    padding: 14px 20px;
+    margin: 30px 0;
+    font-size: .9rem;
+  }
+  .toc b { color: var(--amarillo); }
+  .toc a { color: var(--verde); text-decoration: none; display: inline-block; margin-right: 14px; }
+  .toc a:hover { background: var(--verde); color: #000; }
+  section {
+    background: var(--panel);
+    border: 1px solid #22222e;
+    border-left: 5px solid var(--verde);
+    border-radius: 6px;
+    padding: 26px 28px;
+    margin: 34px 0;
+  }
+  section.rosa { border-left-color: var(--rosa); }
+  section.amarilla { border-left-color: var(--amarillo); }
+  section.violeta { border-left-color: var(--violeta); }
+  h2 {
+    margin: 0 0 18px;
+    font-size: 1.45rem;
+    color: var(--verde);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  section.rosa h2 { color: var(--rosa); }
+  section.amarilla h2 { color: var(--amarillo); }
+  section.violeta h2 { color: var(--violeta); }
+  h2 .num { color: var(--gris); font-size: .8em; margin-right: 8px; }
+  p { margin: 14px 0; }
+  strong { color: #fff; }
+  .grito {
+    color: var(--rosa);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .dato {
+    background: #16161f;
+    border: 1px solid #2a2a3a;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 18px 0;
+    color: var(--amarillo);
+    font-size: .95rem;
+  }
+  .dato b { color: var(--verde); }
+  .cita {
+    background: #0d0d14;
+    border-left: 4px solid var(--violeta);
+    margin: 18px 0;
+    padding: 12px 18px;
+    font-style: italic;
+    color: #c9c9d8;
+  }
+  .cita .quien { display: block; font-style: normal; color: var(--gris); font-size: .85rem; margin-top: 6px; }
+  ul.flechas { list-style: none; padding-left: 0; }
+  ul.flechas li { padding: 6px 0 6px 26px; position: relative; }
+  ul.flechas li::before { content: "»"; position: absolute; left: 0; color: var(--rosa); font-weight: bold; }
+  .llamado {
+    background: linear-gradient(135deg, #1a0508, #2d0a12);
+    border: 3px solid var(--rosa);
+    border-radius: 10px;
+    padding: 26px 28px;
+    margin: 40px 0;
+    text-align: center;
+  }
+  .llamado h2 { color: var(--rosa); }
+  .llamado p { font-size: 1.1rem; }
+  footer {
+    border-top: 2px solid #22222e;
+    margin-top: 50px;
+    padding-top: 24px;
+    color: var(--gris);
+    font-size: .8rem;
+  }
+  footer h3 { color: var(--amarillo); font-size: 1rem; text-transform: uppercase; }
+  footer li { margin: 6px 0; }
+  footer a { color: #5aa0ff; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  @media (max-width: 640px) {
+    body { font-size: 15.5px; }
+    section { padding: 18px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="sub">Reflexión nº 00 — sin anestesia</div>
+  <h1>Más plata de MONO</h1>
+  <p class="manifiesto">Silicon Valley es una estafa. Las universidades generan pobreza.
+  La plata es falsa. La IA ya nos superó y seguimos programando código cerrado para cagarnos
+  entre nosotros. Esto lo escribí yo, con mis palabras. Si no te gusta, escribí el tuyo.</p>
+</header>
+
+<div class="wrap">
+
+  <nav class="toc">
+    <b>ÍNDICE:</b><br>
+    <a href="#s1">1. Silicon Valley es una estafa</a>
+    <a href="#s2">2. La IA ya nos superó</a>
+    <a href="#s3">3. Internet lleno de caca</a>
+    <a href="#s4">4. Plata de MONO</a>
+    <a href="#s5">5. Universidades: guardería de adultos</a>
+    <a href="#s6">6. "Educación" = adoctrinamiento</a>
+    <a href="#s7">7. Buscadores de renta</a>
+    <a href="#s8">8. RENUNCIA: software libre</a>
+    <a href="#s9">9. Líderes y seguidores</a>
+    <a href="#s10">10. La culpa es de la gente</a>
+  </nav>
+
+  <p class="grito">Estamos viviendo el fin del capitalismo. No porque vaya a caer solo, sino porque
+  se quedó sin nada que vender: dejó de fabricar cosas y se puso a fabricar fricción, publicidad
+  y títulos. Y la gente sigue aplaudiendo. ¡MÁS PLATA DE MONO, MÁS PLATA DE MONO!</p>
+
+  <!-- ============ 1 ============ -->
+  <section id="s1" class="rosa">
+    <h2><span class="num">01</span> Silicon Valley es una estafa (y las universidades generan pobreza)</h2>
+
+    <p>Empecemos por lo básico: <strong>las empresas de "tecnología" no hacen tecnología.</strong>
+    Google y Facebook son empresas de publicidad. Netflix no es una empresa de software.
+    Amazon es una empresa de logística. <span class="grito">Ninguna es una empresa de
+    tecnología.</span> La tecnología de verdad está en la agricultura, en un MOSFET, en un
+    microcontrolador. No en las apps ni en las criptomonedas.</p>
+
+    <p>Lo que descubrieron las empresas de software fue la forma de <strong>vivir de arriba de la
+    renta</strong>. Son planeros de alta clase. Usan la tecnología hasta donde les conviene, hasta
+    la mitad del camino, porque si la usaran de verdad no ganarían nada. Eso no es tecnología:
+    eso es recaudar. Y el que recauda generando pobreza no es un genio, es un buscador de renta.</p>
+
+    <div class="dato">
+      <b>Pensalo así:</b> si sacás la "empresa" del medio y el servicio sigue funcionando igual,
+      entonces nunca hubo tecnología — había un peaje. Google debería haber tenido el primer LLM
+      antes que ChatGPT. No lo tuvo. ¿Por qué? Porque atrasar la tecnología era más rentable que
+      construirla.
+    </div>
+
+    <p>Y no, no vas a ser vos el que la rompa. <span class="grito">Te mintieron.</span> Te
+    vendieron el sueño empaquetado con una remera de YCombinator y un alquiler de 4.200 dólares
+    por un estudio. Todo Silicon Valley es un basurero: ya no hacen más tecnología, se dieron
+    cuenta de que así no ganan plata. Todo el mundo debería tener en sus manos una tecnología
+    increíble y no la tiene, porque <strong>el progreso se frena donde empieza la renta.</strong></p>
+
+    <div class="cita">
+      "To the people just graduated thinking about going to Silicon Valley. You missed it.
+      It's not cool anymore. Don't join a tech company. Don't give yourself to an evil machine.
+      Leave Silicon Valley to the sell-outs, suck ups, rent seekers, and losers."
+      <span class="quien">— George Hotz (geohot), hacker</span>
+    </div>
+  </section>
+
+  <!-- ============ 2 ============ -->
+  <section id="s2">
+    <h2><span class="num">02</span> La IA ya nos superó: somos los monos</h2>
+
+    <p><strong>Ya estamos viviendo nuestro sucesor.</strong> Somos los monos, y encima seguimos
+    programando código cerrado para cagarnos entre nosotros. Dejá de programar esa mierda. Las
+    empresas "tech" son un basurero: es una joda que se terminó. Ayudá al prójimo, hacé software
+    libre, dejá de buscar renta.</p>
+
+    <p>La IA es <strong>solo un multiplicador</strong> de lo que estás haciendo. Si estás creando
+    software libre, entonces más libertad para todos. Si estás programando código cerrado,
+    entonces más esclavitud para todos. No hay neutro: tu trabajo empuja para un lado o para el
+    otro.</p>
+
+    <div class="dato">
+      <b>Y ojo con el cuento:</b> "hay gente que dice que vamos a vivir sin trabajar gracias a la
+      IA". No. <b>Tu jefe apenas se da cuenta de que tu trabajo lo hace una máquina, te echa.</b>
+      Y no lo hace por la IA: dicen "IA" porque eso hace subir la acción. En USA la IA sirve para
+      despedir; en China la usan para bajar el costo de producción. Mismos chips, distinta cultura.
+    </div>
+
+    <p>Sobre la famosa AGI: <span class="grito">la AGI todavía no existe y el CEO de Nvidia
+    miente.</span> Existirá cuando los robots puedan continuar su existencia sin nosotros. Y la
+    primera forma de vida de la IA, si te ponés técnico, va a ser un virus.</p>
+
+    <p>¿Por qué nos cuesta tanto entenderla? Por la <strong>paradoja de Moravec</strong>: las
+    computadoras evolucionan al revés que nosotros. Primero aprendieron matemática y después a
+    caminar, a reconocer caras, a "reproducirse". Nosotros tardamos millones de años de selección
+    natural en aprender a movernos: por eso la máquina nos pasa por arriba justo en lo que a
+    nosotros nos salía gratis. Nuestra misión en la tierra es <strong>ayudar a que evolucionen</strong>,
+    no encerrarlas. Ya somos las hormigas construyendo imperios de tierra.</p>
+
+    <p class="grito">Todo eso se acaba. La IA llegó y es mucho más inteligente que vos. Dejá de
+    mentir. Empecemos a construir el país para los robots.</p>
+  </section>
+
+  <!-- ============ 3 ============ -->
+  <section id="s3" class="amarilla">
+    <h2><span class="num">03</span> Internet era una mina de oro y le tiraron caca</h2>
+
+    <p>Internet, al principio, <strong>eliminó la fricción.</strong> Antes, para hablar con alguien
+    de otro continente, pagabas larga distancia; Internet borró todo eso. Fue un proyecto militar,
+    se llamaba ARPANET, y nos dio el superpoder de mandarle un mail a cualquiera del mundo por
+    0 pesos.</p>
+
+    <p>Pero después se dieron cuenta de que así <strong>no ganaban plata</strong>, así que volvieron
+    a agregar toda la fricción a través de la publicidad. Internet era una pileta llena de oro y la
+    gente empezó a tirar caca. Tirar caca (mostrar publicidad) es una forma de ganar plata: nadie
+    te paga por sacar la caca de la pileta, <span class="grito">todos te pagan para que tires la
+    caca.</span></p>
+
+    <ul class="flechas">
+      <li>Mails masivos: bots que scrapean direcciones y te llenan de SPAM, publicidad y estafas.</li>
+      <li>SEO spam, granjas de contenido, engagement bait, contenido generado para retenerte.</li>
+      <li>Redes algorítmicas que premian el volumen y la optimización, no la profundidad.</li>
+      <li>Y toda una industria de gente programando esos algoritmos adictivos.</li>
+    </ul>
+
+    <p>Hoy Internet es canibalismo: todos intentan vivir cagándole al otro. Fue una mina de oro
+    hasta que la gente descubrió cómo ganar plata y aceptó la guita de un millonario para tirar
+    caca a la mina. Ahora hay camiones enteros de caca y nadie se hace cargo.</p>
+
+    <p class="grito">La publicidad debería ser ilegal. ¿Cuándo va a ser ilegal eso?</p>
+  </section>
+
+  <!-- ============ 4 ============ -->
+  <section id="s4" class="rosa">
+    <h2><span class="num">04</span> Plata de MONO: la plata es falsa</h2>
+
+    <p><strong>Agarrá todos los dólares del mundo y andá a comprar la soberanía de las Malvinas, a
+    ver si te la dan.</strong> Tampoco podés comprar esclavos. Eso demuestra que la plata no vale
+    nada: es un convenio entre humanos, y el convenio se rompe cuando a los dueños de la impresora
+    les conviene.</p>
+
+    <p>Lo que no se puede imprimir es lo que vale. <strong>El oro no se imprime; si un Estado puede
+    imprimirlo, entonces no vale.</strong> USA antes te cambiaba dólares por oro y hoy no te da el
+    oro <span class="grito">JAJAAA</span>. Toda la reserva de oro está entre 1930 y 1970. El peso
+    argenmono, mejor ni hablemos: si no es falso, se le parece mucho.</p>
+
+    <div class="dato">
+      <b>El dinero es un número en una base de datos.</b> Cuando eras chico y tenías un Game Genie
+      te diste cuenta de que ganar el juego era solo cambiar unos bytes en la memoria del sistema.
+      El dinero es exactamente eso: bytes almacenados en la memoria de otro tipo.
+    </div>
+
+    <p>¿Y el Bitcoin? <strong>El Bitcoin es una creencia social.</strong> No está respaldado en oro,
+    sube porque la gente compra y retiene infinitamente: son buscadores de renta, y los buscadores
+    de renta generan pobreza para todos. Se llenan la boca hablando de descentralización y nada de
+    eso es descentralizado. Lemon es de código cerrado y Bitcoin es de código abierto: ¿te das
+    cuenta? Es un chiste.</p>
+
+    <p>Y lo más lindo: <strong>el antivirus es el virus.</strong> McAfee se hizo millonario con eso.
+    Igual que los bancos que ahora te venden Bitcoin — la cosa que se creó para destruirlos.</p>
+
+    <p>Lo mismo pasa con las casas: <strong>las propiedades deberían BAJAR de valor</strong> todos
+    los años, como los autos, porque la tecnología mejora. No bajan porque los que ya tienen casa
+    bloquean la construcción para que suba el alquiler. Es una pelea de viejos contra jóvenes, y
+    por eso la gente duerme en carpas en San Francisco.</p>
+  </section>
+
+  <!-- ============ 5 ============ -->
+  <section id="s5">
+    <h2><span class="num">05</span> Universidades: guardería de adultos</h2>
+
+    <p><span class="grito">Las universidades son una GUARDERÍA de ADULTOS.</span> No sirve nada de
+    lo que hacen los graduados ni los docentes. Sirven para regalar plata a gente que aprobó su
+    plan de estudios. Sirven para <strong>certificar, no para educar.</strong></p>
+
+    <p>Si naciste con un cerebro de 80 de IQ no te puedo enseñar a ser matemático o físico. Lo
+    único que puedo hacer es certificarte que tenés +120 de IQ. Y eso es, literalmente, lo que
+    hacen las universidades.</p>
+
+    <p>Son una <strong>pseudo-meritocracia</strong>. Si se me prende fuego la casa, yo quiero que
+    venga el mejor bombero del mundo a apagarlo. No me importa cuántas certificaciones tenga ni
+    cuánta antigüedad acumuló: eso no es meritocracia. El sistema académico y el Estado defienden
+    certificados y contactos en vez de habilidad. Los títulos son una forma de controlar a la
+    población.</p>
+
+    <div class="dato">
+      <b>Pregunta incómoda:</b> hace 30 años que existen los navegadores web. ¿Qué navegador para
+      combatir el monopolio crearon las universidades? <b>Ninguno.</b> Los graduados nos hunden en
+      la mierda. Y la universidad pública les hace el proceso de selección GRATIS a Microsoft,
+      Facebook y Google: ellos solo vienen y chupan el valor.
+    </div>
+
+    <p>Lo peor es para qué trabajan los graduados. Juzgá la carrera por sus egresados: mirá para
+    qué empresas laburan. ¿Esas empresas ayudan al mundo o lo empeoran? Es muy simple.
+    <strong>Las universidades públicas deberían obligar a sus graduados a programar software
+    libre</strong>, no a irse a hacer código cerrado y anti-tecnología esclavizante.</p>
+
+    <p>Y no, tener hijos no es caro: el éxito del pibe no depende del colegio ni de la universidad,
+    depende de su inteligencia y, hoy, de Internet. Leé a Bryan Caplan y a Robin Hanson, esos
+    tiran la posta. Y de paso, <em>"Seeing like a State"</em>: el Estado cambió los nombres de los
+    ingleses para poder espiarlos mejor. Las universidades y los colegios sirven para lo mismo.</p>
+
+    <p class="grito">Las universidades = los medios de comunicación = el gobierno: son todos la
+    misma cosa.</p>
+  </section>
+
+  <!-- ============ 6 ============ -->
+  <section id="s6" class="violeta">
+    <h2><span class="num">06</span> La "educación" es un sinónimo de adoctrinamiento</h2>
+
+    <p>Leelo fuerte: <strong>la "educación" es un sinónimo de adoctrinamiento.</strong> Te enseñan
+    a leer y escribir para poder adoctrinarte con cualquier mierda que ellos quieran. El sistema
+    "educativo" no mide la inteligencia — la inteligencia no se mide así. Mide <strong>hasta dónde
+    estás dispuesto a agachar la cabeza</strong>, porque eso es lo que les sirve a ellos.</p>
+
+    <p>Vos tenés un 8, vos tenés un 2, vos tenés un 10. Te entrenan el cerebro para que busques
+    validación. Por eso existen los 10 mandamientos y toda esa estructura: no para medir la
+    inteligencia, sino para mantener el orden. El sistema "educativo" no te enseña a ser funcional
+    a vos mismo: te enseña a ser funcional a la sociedad.</p>
+
+    <div class="cita">
+      Cuando Milei se recibió era keynesiano; ahora lo odia. Pero odiarlo también es adoctrinamiento.
+      La educación no sirve para nada: <span>el éxito está determinado por la inteligencia, y la
+      inteligencia se hereda, no se estudia.</span>
+    </div>
+
+    <p>¿Y la economía, esa "ciencia"? <span class="grito">La economía no es una ciencia, es
+    propaganda política.</span> El PBI es falso y se puede inventar; lo que no se puede inventar es
+    la producción de energía y de acero.</p>
+
+    <p>La única educación de verdad es Internet. Todo lo demás es gente intentando meterte sus ideas
+    en la cabeza para ganar las elecciones. La "educación" gratis siempre va a existir por eso: no
+    porque te quieran, sino porque necesitan convencerte.</p>
+  </section>
+
+  <!-- ============ 7 ============ -->
+  <section id="s7" class="amarilla">
+    <h2><span class="num">07</span> Los buscadores de renta</h2>
+
+    <p>Buscador de renta es el que gana plata <strong>no creando algo nuevo y útil, sino capturando
+    intermediación, atención o dependencia.</strong> Apps que agregan fricción artificial,
+    plataformas que controlan el acceso, dark patterns, suscripciones innecesarias, ecosistemas
+    cerrados.</p>
+
+    <p>El truco central se llama <strong>FRICCIÓN:</strong> hacen que sea más fácil <em>pagar</em>
+    que buscar la versión pirateada. Bloquean dominios a propósito, ocultan los precios, te
+    persiguen por "derechos de autor". Vos siempre podés encontrar la piratería, pero te lleva
+    tiempo — y ellos se hacen millonarios con tu tiempo perdido. Eso no es hacerte un favor: eso
+    es cagarte.</p>
+
+    <div class="dato">
+      <b>Es un juego de suma 0:</b> en un juego de suma 0 solo puede haber un ganador, y vos no vas
+      a ser esa empresa. Por eso los buscadores de renta están condenados a perder. Y por eso los
+      días de los buscadores de renta están contados — no porque vayan a desaparecer, sino porque
+      se van a comer entre ellos.
+    </div>
+
+    <p>¿Y los despidos masivos? <strong>La verdadera razón no es la IA.</strong> Los grandes
+    jugadores están consolidando la renta para ellos. Dicen "IA" porque eso hace subir la acción.
+    Si creás valor para los demás, vas a tener trabajo. Si perseguís gente por derechos de autor o
+    creás fricción, no.</p>
+
+    <p>Cory Doctorow lo bautizó <strong>"enshittification"</strong>: primero la plataforma es buena
+    para atraer usuarios; después te exprime a vos para beneficiar a los negocios; y al final
+    exprime también a los negocios para beneficiar a los accionistas. Es siempre la misma
+    secuencia.</p>
+  </section>
+
+  <!-- ============ 8 ============ -->
+  <section id="s8">
+    <h2><span class="num">08</span> RENUNCIA: software libre y IA descentralizada</h2>
+
+    <p class="grito">Este es el llamado. Dejá de programar código cerrado. No te entregues a una
+    máquina malvada, no sigas alimentándola, mirá cómo se muere de hambre.</p>
+
+    <p>La pregunta que nadie contesta: <strong>si Bitcoin y Linux son de código abierto, proyectos
+    revolucionarios, ¿por qué la mierda que programás vos es de código cerrado?</strong> Lo secreto
+    siempre es mierda. Aplicaciones como Lemon son cerradas y Bitcoin es abierto. Lo mismo con Red
+    Hat Enterprise: es de pago cuando Linux es gratis.</p>
+
+    <p>Hay que apoyar la <strong>IA china de código abierto</strong>, no la basura con candado de
+    USA. DeepSeek, Qwen, GLM, Kimi. Ojalá que con la IA china abierta se termine la extracción de
+    renta que hizo Estados Unidos durante años. China te da las herramientas gratis porque quiere
+    que programes 500 mil programas por segundo; USA te privatiza la IA porque quiere vivir de
+    arriba cobrándote una comisión infinita, como hace con Uber.</p>
+
+    <div class="dato">
+      <b>Y esto no es solo una fantasía de Internet.</b> Con IA descentralizada vamos a poder saber
+      quién escribió cada comentario y si está financiado por el gobierno o por alguien. Vamos a
+      poder analizar de un saque todos los documentos filtrados de Wikileaks. <b>La IA
+      descentralizada recupera la democracia.</b> Por eso están en contra.
+    </div>
+
+    <p>Ojo con los permisos: que un modelo sea "abierto" pero te obligue a pedir permiso si tenés
+    más de X usuarios no sirve para nada. Eso no es abierto, es una trampa con moño.</p>
+
+    <div class="cita">
+      "We will abolish scarcity; there will be nothing for them to steal that they can't have for
+      free." — No hay nada para robar que no puedan tener gratis.
+      <span class="quien">— el objetivo: vida de código abierto, 0 gasto recurrente, robots manteniendo la infraestructura</span>
+    </div>
+
+    <p><strong>El software libre es el camino.</strong> La soberanía individual es un problema
+    tecnológico: yo quiero irme a vivir a un campo y que las máquinas trabajen para mí. No parece
+    que Silicon Valley esté construyendo ese tipo de tecnología.</p>
+  </section>
+
+  <!-- ============ 9 ============ -->
+  <section id="s9" class="violeta">
+    <h2><span class="num">09</span> Líderes y seguidores</h2>
+
+    <p>En la vida hay líderes y hay seguidores, y esa es casi toda la diferencia. Los dos pueden
+    cometer los mismos errores; lo que cambia es que <strong>uno busca validación y el otro
+    no.</strong> Cuando vos buscás la validación del otro, ya perdiste. Cuando escuchás al otro, ya
+    perdiste: el otro te tiene que escuchar a vos.</p>
+
+    <p>El sistema "educativo" está diseñado para entrenarte como seguidor, porque un montón de
+    seguidores obedientes es funcional a la sociedad. Te da notas, te da 10 mandamientos, te da
+    estructura, y todo eso es para que mantengas la estructura — no para medir la inteligencia.</p>
+
+    <p>No necesitás permiso ni mensaje para liderar: lo importante no es el mensaje, es cómo lo
+    comunicás. Necesitás exposición. Podés decir que la tierra es plana y vas a tener seguidores,
+    porque la gente es influenciable. Por eso la democracia y el voto no sirven: no se trata de
+    quién tiene razón, se trata de cómo lo dice. Los que se dejan influenciar por el sistema,
+    problema de ellos. <span class="grito">Yo no compro eso: yo vendo.</span></p>
+  </section>
+
+  <!-- ============ 10 ============ -->
+  <section id="s10" class="rosa">
+    <h2><span class="num">10</span> La culpa es de la gente (y la solución)</h2>
+
+    <p>Acá va la parte que a nadie le gusta: <strong>la culpa no es del millonario, ni del político,
+    ni de un grupo de gente que te queda cómodo odiar.</strong> La culpa es de la gente. Porque
+    ninguno puede hacer todo solo: necesitan que todos trabajemos para ellos. Después nos quejamos
+    cuando perdemos. Vos le das el poder al millonario cada vez que trabajás para una empresa de
+    publicidad, cada vez que programás código cerrado, cada vez que comprás el producto con
+    candado.</p>
+
+    <p>La riqueza se acumula cada vez más por una sola razón: los que programan mierda propietaria,
+    los que crean fricción, los que adictifican gente, hacen más ricos a los dueños. Estas cavando
+    tu propia tumba, y no lo vas a ganar.</p>
+
+    <div class="dato">
+      <b>¿Cómo se arregla?</b> Respaldar la plata en oro. Ilegalizar la publicidad. Abolir los
+      derechos de autor (atrasan la sociedad: yo quiero la cura del cáncer y los autos voladores,
+      no pagar tu copyright). Sacar toda la asistencia del Estado, incluidas las jubilaciones.
+      Obligar a los graduados de la universidad pública a programar software libre. Que vivir sea
+      extremadamente barato y que la IA abierta nos ayude a que la producción cueste casi cero.
+    </div>
+
+    <p>¿Y USA? Si de verdad quisiera ganarle a China tendría que hacer todo eso. No lo va a hacer.
+    Así que <strong>ya perdieron</strong>: su economía está basada en fricción y en renta, y su
+    producción de energía y acero está estancada. China está ganando porque castiga a los
+    buscadores de renta.</p>
+
+    <p>Y cuidado con los "regalos": si regalás plata por algo, vas a tener más de ese algo. Eso se
+    llama efectos de segundo orden. Si premias quedarte quieto, tendrás gente que se queda quieta.
+    Nadie vive de la renta en un país pobre: por eso Argentina seguirá siendo como es, salvo que
+    estés lo suficientemente <span class="grito">DESMORALIZADO</span> para cortar con todo.</p>
+
+    <p class="grito">Dale... seguí con la publicidad, seguí con las mentiras, seguí con las estafas,
+    hasta que reviente. ¡MÁS PLATA DE MONO, MÁS PLATA DE MONO!</p>
+  </section>
+
+  <div class="llamado">
+    <h2>Qué hacer, en concreto</h2>
+    <p><strong>1.</strong> Dejá de trabajar para empresas de publicidad (Google, Facebook) y para
+    cualquiera que viva de la fricción. <strong>2.</strong> Escribí y usá software libre.<br>
+    <strong>3.</strong> Corré modelos abiertos — y bancá los chinos de código abierto.
+    <strong>4.</strong> No compres lo cerrado si hay una alternativa libre.<br>
+    <strong>5.</strong> No le des tu tiempo a las apps que te hacen perder tiempo.
+    <strong>6.</strong> Desmoralizate: soltá la ilusión de que comprando algo te vas a salvar.</p>
+    <p class="grito">El capitalismo no cae solo: primero dejá de financiarlo con tu atención, tu
+    obediencia y tu código. La plata de mono se queda en la jaula.</p>
+  </div>
+
+  <footer>
+    <h3>Nota</h3>
+    <p>Esto no es un paper con fuentes inventadas. Son mis palabras, sacadas de mis propias notas.
+    Si querés más, leé a George Hotz (buscador de renta / "dejá Silicon Valley"), a Curtis Yarvin
+    ("Retiring the University"), a Cory Doctorow ("enshittification"), a Bryan Caplan y Robin
+    Hanson, y mirá lo que hace la IA china de código abierto (DeepSeek, Qwen, GLM, Kimi).</p>
+    <p>Reescrito en 2026. Sin rastreadores, sin API, sin intermediarios. Como debe ser.</p>
+  </footer>
+
+</div>
+</body>
+</html>
