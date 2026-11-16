@@ -1,0 +1,7 @@
+Imprimir doble faz en impresora que imprime adelante y imprime en la misma cara que insertas:
+
+Agarra las hojas como salen de la impresora y movelas a un costado cada una y despues da vuelta todo y ponelo en la impresora.
+
+Imprimir doble faz en impresora que imprime de atrás para adelante y imprime en la cara opuesta:
+
+Agarrá la hojas como salen y dale vuelta 180 grados pero no le des vuelta la hoja, gira 180 grados la hoja.
